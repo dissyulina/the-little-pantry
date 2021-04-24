@@ -1,3 +1,54 @@
 body {
     font-family: 'Robotto', sans-serif;
 }
+
+/* Navbar */
+
+.bg-navbar-footer {
+    background-color: #9BAAAB;
+}
+
+.font-brand {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+
+.header-container {
+    height: 100vh;
+    background: url(../images/hero-image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  
+}
+
+.jumbotron {
+    background-color: transparent;
+    text-align: right;
+    
+}
+
+.jumbotron-header {
+    text-transform: uppercase;
+    color:#45545E;
+}
+
+.jumbotron-subheader {
+    color:#45545E;
+}
+
+.btn-orange {
+    background-color: #E86F4A;
+    color: #fff;
+}
+
+
+
+
