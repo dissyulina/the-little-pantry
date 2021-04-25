@@ -54,7 +54,7 @@ body {
 .about-text {
     text-align: center;
     color:#45545E;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .about-header {
@@ -62,6 +62,21 @@ body {
     margin-top: 8rem;
     margin-bottom: 4rem;
     text-transform: uppercase;
+}
+
+/*Section2: Products */
+.products-image {
+    width: 100%;
+}
+
+.bg-cream {
+    background-color: #F0E4D8;
+}
+
+.products-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 
