@@ -3,6 +3,12 @@ body {
     color:#45545E;
 }
 
+.section-title-heading {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
 /* button */
 .btn-orange {
     background-color: #E86F4A;
@@ -71,24 +77,31 @@ body {
     margin: 20px 0;
 }
 
-.section-title-heading {
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 8rem;
-    margin-bottom: 4rem;
-    text-transform: uppercase;
+.card-title {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
 }
 
 /*Section2: Products */
+
+
 .products-image {
     width: 100%;
+    max-height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: round;
 }
-
 
 .products-text-container {
-    display: flex;
+  
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
 }
+
+
+
 
 
 /* Section 3: How To Shop */
