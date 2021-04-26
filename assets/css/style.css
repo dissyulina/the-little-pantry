@@ -1,12 +1,30 @@
 body {
     font-family: 'Robotto', sans-serif;
+    color:#45545E;
+}
+
+/* button */
+.btn-orange {
+    background-color: #E86F4A;
+    color: #fff;
+    border-radius: 1rem;
+}
+
+.btn-orange:hover {
+
+}
+
+/* background color */
+
+.bg-green {
+    background-color: #9BAAAB;
+}
+
+.bg-cream {
+    background-color: #F0E4D8;
 }
 
 /* Navbar */
-
-.bg-navbar-footer {
-    background-color: #9BAAAB;
-}
 
 .font-brand {
     font-family: 'Poppins', sans-serif;
@@ -45,10 +63,6 @@ body {
     color:#45545E;
 }
 
-.btn-orange {
-    background-color: #E86F4A;
-    color: #fff;
-}
 
 /* Section 1: About Us */
 .about-text {
@@ -57,7 +71,7 @@ body {
     margin: 20px 0;
 }
 
-.about-header {
+.section-title-heading {
     font-family: 'Open Sans', sans-serif;
     margin-top: 8rem;
     margin-bottom: 4rem;
@@ -69,9 +83,6 @@ body {
     width: 100%;
 }
 
-.bg-cream {
-    background-color: #F0E4D8;
-}
 
 .products-text-container {
     display: flex;
@@ -80,4 +91,9 @@ body {
 }
 
 
+/* Section 3: How To Shop */
+
+#how-to-shop i {
+    color: #E86F4A;
+}
 
