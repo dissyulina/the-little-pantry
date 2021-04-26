@@ -77,6 +77,13 @@ body {
     margin: 20px 0;
 }
 
+.card {
+    border: none;
+}
+
+.card-img-top {
+    border-radius: 10px;
+}
 .card-title {
     font-family: Poppins, sans-serif;
     font-weight: 600;
