@@ -153,3 +153,8 @@ body {
     background-color: rgba(255,255,255,0.7);
     width: fit-content;
 }
+
+/* Section 5: Find Us */
+.findus-container {
+    background-color: #DBE9DF;
+}
