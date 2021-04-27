@@ -30,6 +30,10 @@ body {
     background-color: #F0E4D8;
 }
 
+.bg-orange {
+    background-color: #E86F4A;
+}
+
 /* Navbar */
 
 .font-brand {
@@ -119,4 +123,8 @@ body {
 
 .faq-container i {
     color: #45545E;
+}
+
+#did-you-know {
+    color: #fff;  
 }
