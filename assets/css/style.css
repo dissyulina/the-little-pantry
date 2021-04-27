@@ -13,7 +13,9 @@ body {
 .btn-orange {
     background-color: #E86F4A;
     color: #fff;
-    border-radius: 1rem;
+    border-radius: 10px;
+    padding: 5px 20px;
+    border: 2px solid #fff;
 }
 
 .btn-orange:hover {
@@ -125,6 +127,14 @@ body {
     color: #45545E;
 }
 
+
+/* Subsection: Did you know */
+
 #did-you-know {
     color: #fff;  
+}
+
+.input-mailist {
+    border-style: none;
+    padding: 5px;
 }
