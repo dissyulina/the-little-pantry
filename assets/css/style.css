@@ -16,6 +16,7 @@ body {
     border-radius: 10px;
     padding: 5px 20px;
     border: 2px solid #fff;
+    font-size: 20px;
 }
 
 .btn-orange:hover {
@@ -24,7 +25,7 @@ body {
 
 /* background color */
 
-.bg-green {
+.bg-gray-green {
     background-color: #9BAAAB;
 }
 
@@ -34,6 +35,10 @@ body {
 
 .bg-orange {
     background-color: #E86F4A;
+}
+
+.bg-light-green {
+    background-color: #DBE9DF;
 }
 
 /* Navbar */
@@ -155,6 +160,3 @@ body {
 }
 
 /* Section 5: Find Us */
-.findus-container {
-    background-color: #DBE9DF;
-}

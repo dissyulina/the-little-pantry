@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-green navbar-expand-sm fixed-top">
+    <nav class="navbar navbar-light bg-gray-green navbar-expand-sm fixed-top">
         <a class="navbar-brand font-brand" href="#">
             <img src="assets/images/logo.png" width="auto" height="30" class="d-inline-block align-top" alt="" loading="lazy">
             the little pantry
@@ -29,13 +29,23 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <div class="navbar-nav ml-auto">
-                <a class="nav-link active mr-2" href="#">About Us <span class="sr-only">(current)</span></a>
-                <a class="nav-link mr-2" href="#">Products</a>
-                <a class="nav-link mr-2" href="#">How To Shop</a>
-                <a class="nav-link mr-2" href="#">Contact</a>
-                <a class="nav-link mr-2" href="#">Find Us</a>
-            </div>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active mr-2">
+                      <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mr-2">
+                      <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item mr-2">
+                      <a class="nav-link" href="#">How To Shop</a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a class="nav-link" href="#">Find Us</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
@@ -116,7 +126,7 @@
                     <div class="container mx-auto">
                         <h2 class="section-title-heading">What We Sell</h2>
                         <p>We sell wide ranges of beans, seeds, dry pasta, spices, oats, nuts, quinoa, and many more. Do you want to be sure about your shopping list before you come to our shop? Clik below to see our complete product list.</p>
-                        <a class="btn btn-lg btn-orange" href="#" role="button">How To Shop</a>
+                        <a class="btn btn-lg btn-orange" href="#" role="button">Product List</a>
                     </div>
                 </div>
             </div>
@@ -168,10 +178,9 @@
                 <p>If you’re still unsure on how to buy the products in our shop , don’t hesitate. Our staff would be more than happy to assist you with a smile. We are very passionate about what we do, therefore we would be trully delighted to welcome you as our costumer!</p>
             </div>
         </div>
-    </section>
-
-        <!-- Small section: Did you know-->
-        <section id="did-you-know">
+    
+        <!-- Subsection: Did you know-->
+        <div id="did-you-know">
             <div class="container-fluid bg-orange">
                 <div class="container mx-auto py-5 text-center">
                     <div>
@@ -188,13 +197,14 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
     
     <!-- Section 4: Contact-->
     <section id="contact">
         <div class="container-fluid contact-container py-5">
             <div class="overlay mx-auto py-5">
-                <div class="container mx-auto px-3 py-4">
+                <div class="container mx-auto p-5">
                     <div class="text-center">
                         <h2 class="section-title-heading mb-5">Get in touch with us!</h2>
                         <p>Do you have questions or comments? We also love to hear what you think - good or bad! Fill in the form below and we’ll get back to you as soon as we can!</p>
@@ -218,7 +228,7 @@
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                 <label class="form-check-label" for="exampleCheck1">I want to receive the weekly Newsletter about new update and tips on how to live zero waste.</label>
                             </div>
-                            <button type="submit" class="btn btn-orange">Send Message</button>
+                            <button type="submit" class="btn btn-orange ml-auto">Send Message</button>
                           </form>
                     </div>
                 </div>
@@ -228,11 +238,11 @@
 
     <!-- Section 5: Find Us-->
     <section>
-        <div class="container-fluid findus-container">
+        <div class="container-fluid bg-light-green">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <div class="container ml-auto py-5">
+                        <div class="container py-5">
                             <h2 class="my-4">We hope to meet you soon!</h2>
                             <div>
                                 <h4>Find Us</h4>
@@ -263,9 +273,11 @@
     </section>
 
     <footer>
-        <div class="container-fluid footer-container p-5">
+        <div class="container-fluid bg-gray-green p-5">
             <div class="row">
-                
+                <div class="col-12 col-md-2">
+                    
+                </div>
 
             </div>
 
