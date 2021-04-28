@@ -3,13 +3,16 @@ body {
     color:#45545E;
 }
 
-.section-title-heading {
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    font-weight: 800;
+h1, h2, h3, h4 {
+    font-family: 'Lato', sans-serif;
 }
 
-/* button */
+.section-title-heading {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/*------Button------*/
 .btn-orange {
     background-color: #E86F4A;
     color: #fff;
@@ -17,13 +20,14 @@ body {
     padding: 5px 20px;
     border: 2px solid #fff;
     font-size: 20px;
+    font-family: 'Lato', sans-serif;
 }
 
 .btn-orange:hover {
 
 }
 
-/* background color */
+/*------Background Color------*/
 
 .bg-gray-green {
     background-color: #9BAAAB;
@@ -41,7 +45,7 @@ body {
     background-color: #DBE9DF;
 }
 
-/* Navbar */
+/*------Navbar------*/
 
 .font-brand {
     font-family: 'Lora', serif;
@@ -50,7 +54,7 @@ body {
     color: #000
 }
 
-/* Header */
+/*------Header & Hero------*/
 
 .header-container {
     margin-top: 30px;
@@ -81,7 +85,8 @@ body {
 }
 
 
-/* Section 1: About Us */
+/*------Section 1: About Us------*/
+
 .about-text {
     text-align: center;
     color:#45545E;
@@ -100,12 +105,11 @@ body {
     border-radius: 10px;
 }
 .card-title {
-    font-family: Poppins, sans-serif;
-    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
 }
 
-/*Section2: Products */
-
+/*------Section2: Products------*/
 
 .products-image {
     width: 100%;
@@ -116,7 +120,7 @@ body {
 }
 
 
-/* Section 3: How To Shop */
+/*------Section 3: How To Shop------*/
 
 #how-to-shop i {
     color: #E86F4A;
@@ -127,7 +131,7 @@ body {
 }
 
 
-/* Subsection: Did you know */
+/*------Subsection: Did you know------*/
 
 #did-you-know {
     color: #fff;  
@@ -138,7 +142,7 @@ body {
     padding: 5px;
 }
 
-/* Section 4: Contact */
+/*------Section 4: Contact------*/
 .contact-container {
     background: url(../images/the-shop.jpg) no-repeat left bottom;
     -webkit-background-size: cover;
@@ -153,11 +157,12 @@ body {
     width: fit-content;
 }
 
-/* Section 5: Find Us */
+/*------Section 5: Find Us------*/
 
 
-/* Footer */
+/*------Footer------*/
 
-#footer a {
-    color: #45545E;
+#footer a,
+#footer li {
+    color: #000;
 }
