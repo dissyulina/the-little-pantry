@@ -45,6 +45,7 @@ body {
 
 .font-brand {
     font-family: 'Poppins', sans-serif;
+    color: #000
 }
 
 /* Header */
@@ -160,3 +161,10 @@ body {
 }
 
 /* Section 5: Find Us */
+
+
+/* Footer */
+
+#footer a {
+    color: #45545E;
+}
