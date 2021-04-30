@@ -18,13 +18,15 @@ section {
 
 /*------Button------*/
 .btn-orange {
-    background-color: #E86F4A;
+    background: #ec8f6a;
+    border-color: #ec8f6a;
     color: #fff;
-    border-radius: 10px;
-    padding: 5px 20px;
-    border: 2px solid #fff;
-    font-size: 20px;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
     font-family: 'Lato', sans-serif;
+    padding: 10px 30px;
 }
 
 .btn-orange:hover {
