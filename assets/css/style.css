@@ -167,7 +167,9 @@ section {
 
 
 /*------Footer------*/
-
+footer .nav-link {
+    padding: 0;
+}
 #footer a,
 #footer li {
     color: #000;
