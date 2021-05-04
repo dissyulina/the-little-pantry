@@ -18,20 +18,21 @@ section {
 
 /*------Button------*/
 .btn-orange {
-    background: #ec8f6a;
-    border-color: #ec8f6a;
+    background: #E56138;
+    border-color: #E56138;
     color: #fff;
     border-width: 1px;
     border-radius: 5px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     font-family: 'Lato', sans-serif;
     padding: 10px 30px;
 }
-
-/*.btn-orange:hover {
-
-} */
+.btn-orange:hover {
+    background: #B53C17;
+    border-color: #B53C17;
+    color: #fff;
+} 
 
 /*------Background Color------*/
 
@@ -54,10 +55,13 @@ section {
 /*------Navbar------*/
 
 .font-brand {
-    font-family: 'Lora', serif;
-    font-style: italic;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
-    color: #000
+    color: #00171F;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #00171F;
 }
 
 /*------Header & Hero------*/
@@ -83,10 +87,12 @@ section {
 
 .jumbotron-header {
     text-transform: uppercase;
+    font-weight: 400;
     color:#45545E;
 }
 
 .jumbotron-subheader {
+    font-weight: 400;
     color:#45545E;
 }
 
@@ -172,5 +178,5 @@ footer .nav-link {
 }
 #footer a,
 #footer li {
-    color: #000;
+    color: #00171F;
 }
