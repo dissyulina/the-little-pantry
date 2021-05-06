@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     color:#45545E;
@@ -70,7 +74,8 @@ section {
 /*------Navbar------*/
 
 .font-brand {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
     color: #232B2F;
 }
 
@@ -103,6 +108,7 @@ section {
 
 .jumbotron-header {
     font-weight: 600;
+    font-size: 3rem;
     line-height: 1.0;
     color:#45545E;
 }
