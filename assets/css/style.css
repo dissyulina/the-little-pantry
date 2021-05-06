@@ -1,7 +1,14 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     color:#45545E;
+    line-height: 1.5;
 }
+
+/*
+body {
+    overflow-x: hidden!important;
+  }
+*/
 
 .container-fluid {
     padding-left: 0;
@@ -13,8 +20,9 @@ body {
     margin-right: 0;
 }
 
+
 h1, h2, h3, h4 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
 section {
@@ -22,25 +30,22 @@ section {
 }
 
 .section-title-heading {
-    text-transform: uppercase;
     font-weight: 600;
 }
 
 /*------Button------*/
 .btn-orange {
     background: #E56138;
-    border-color: #E56138;
     color: #fff;
     border-width: 1px;
     border-radius: 5px;
     font-size: 18px;
     font-weight: 600;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     padding: 10px 30px;
 }
 .btn-orange:hover {
     background: #B53C17;
-    border-color: #B53C17;
     color: #fff;
 } 
 
@@ -55,7 +60,7 @@ section {
 }
 
 .bg-orange {
-    background-color: #E86F4A;
+    background-color: #5C5C5C;
 }
 
 .bg-light-green {
@@ -65,19 +70,18 @@ section {
 /*------Navbar------*/
 
 .font-brand {
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    color: #00171F;
+    font-family: 'Pacifico', cursive;
+    color: #232B2F;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #00171F;
+    color: #232B2F;
 }
 
 /*------Header & Hero------*/
 
 .header-container {
-    margin-top: 30px;
+    margin-top: 55px;
     height: 100vh;
     background: url(../images/hero-image.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -98,9 +102,17 @@ section {
 }
 
 .jumbotron-header {
-    text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 600;
+    line-height: 1.0;
     color:#45545E;
+}
+
+
+@media screen and (max-width: 576px) {
+    .jumbotron-header {
+        font-weight: 600;
+        font-size: 2rem;
+    }
 }
 
 .jumbotron-subheader {
@@ -118,7 +130,7 @@ section {
 }
 
 .blockquote {
-    font-family: 'Lora', serif;
+    font-family: 'Merriweather', serif;
 }
 
 .card {
@@ -129,7 +141,7 @@ section {
     border-radius: 10px;
 }
 .card-title {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
     font-weight: 700;
 }
 
@@ -137,12 +149,15 @@ section {
 
 .products-image {
     width: 100%;
-    max-height: auto;
+    /*max-height: auto;*/
     background-position: center;
     background-size: cover;
     background-repeat: round;
 }
 
+.products-text {
+    padding: 5rem 1rem;
+}
 
 /*------Section 3: How To Shop------*/
 
@@ -190,5 +205,9 @@ footer .nav-link {
 }
 #footer a,
 #footer li {
-    color: #00171F;
+    color: #232B2F;
+}
+
+#footer i {
+    font-size: 24px;
 }
