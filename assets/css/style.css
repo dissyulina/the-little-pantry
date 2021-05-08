@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color:#45545E;
     line-height: 1.5;
 }
@@ -45,7 +45,7 @@ section {
     border-radius: 5px;
     font-size: 18px;
     font-weight: 600;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 10px 30px;
 }
 .btn-orange:hover {
@@ -81,7 +81,16 @@ section {
 
 .navbar-light .navbar-nav .nav-link {
     color: #232B2F;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 2px;
 }
+
+.nav-item:hover {
+    background-color: #DBE9DF;
+    border-radius: 5px;
+}
+
+
 
 /*------Header & Hero------*/
 
