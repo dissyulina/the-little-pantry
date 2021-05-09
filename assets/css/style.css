@@ -162,14 +162,6 @@ section {
 
 /*------Section2: Products------*/
 
-.products-image {
-    width: 100%;
-    /*max-height: auto;*/
-    background-position: center;
-    background-size: cover;
-    background-repeat: round;
-}
-
 .products-text {
     padding: 5rem 1rem;
 }
