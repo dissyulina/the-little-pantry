@@ -24,7 +24,6 @@ body {
     margin-right: 0;
 }
 
-
 h1, h2, h3, h4 {
     font-family: 'Merriweather', serif;
 }
@@ -37,7 +36,8 @@ section {
     font-weight: 600;
 }
 
-/*------Button------*/
+/*-- Button --*/
+
 .btn-orange {
     background: #E56138;
     color: #fff;
@@ -53,7 +53,7 @@ section {
     color: #fff;
 } 
 
-/*------Background Color------*/
+/*-- Background Color --*/
 
 .bg-gray-green {
     background-color: #9BAAAB;
@@ -71,7 +71,7 @@ section {
     background-color: #DBE9DF;
 }
 
-/*------Navbar------*/
+/*-- Navbar --*/
 
 .font-brand {
     font-family: 'Comfortaa', cursive;
@@ -90,9 +90,7 @@ section {
     border-radius: 5px;
 }
 
-
-
-/*------Header & Hero------*/
+/*-- Header & Hero --*/
 
 .header-container {
     margin-top: 55px;
@@ -122,21 +120,12 @@ section {
     color:#45545E;
 }
 
-
-@media screen and (max-width: 576px) {
-    .jumbotron-header {
-        font-weight: 600;
-        font-size: 2rem;
-    }
-}
-
 .jumbotron-subheader {
     font-weight: 400;
     color:#45545E;
 }
 
-
-/*------Section 1: About Us------*/
+/*-- Section 1: About Us --*/
 
 .about-text {
     text-align: center;
@@ -160,7 +149,7 @@ section {
     font-weight: 700;
 }
 
-/*------Section2: Products------*/
+/*-- Section 2: Products --*/
 
 .products-text {
     padding: 5rem 1rem;
@@ -170,7 +159,7 @@ section {
     list-style: none;
 }
 
-/*------Section 3: How To Shop------*/
+/*-- Section 3: How To Shop --*/
 
 #how-to-shop i {
     color: #E86F4A;
@@ -180,8 +169,7 @@ section {
     color: #45545E;
 }
 
-
-/*------Subsection: Did you know------*/
+/*-- Subsection: Did you know --*/
 
 #did-you-know {
     color: #fff;  
@@ -192,7 +180,8 @@ section {
     padding: 5px;
 }
 
-/*------Section 4: Contact------*/
+/*-- Section 4: Contact --*/
+
 .contact-container {
     background: url(../images/the-shop.jpg) no-repeat left bottom;
     -webkit-background-size: cover;
@@ -207,10 +196,10 @@ section {
     width: fit-content;
 }
 
-/*------Section 5: Find Us------*/
+/*-- Section 5: Find Us --*/
 
 
-/*------Footer------*/
+/*-- Footer --*/
 footer .nav-link {
     padding: 0;
 }
@@ -224,8 +213,27 @@ footer .nav-link {
 }
 
 /*-- Media Queries --*/
-@media screen and (min-width: 1200px) {
-    .jumbotron {
-        margin-right: 60px;
+
+/* for small devices, landscape phone, or less */
+@media screen and (max-width: 576px) {
+    .jumbotron-header {
+        font-weight: 600;
+        font-size: 2rem;
     }
 }
+
+/* for medium to large devices (tablets to desktop) */
+@media screen and (min-width: 992px) and (max-width: 1599.99px) {
+    .jumbotron {
+        max-width: 50vw;
+    }
+}
+
+/* for extra wide monitor and up */
+@media screen and (min-width: 1600px) {
+    .jumbotron {
+        margin-right: 60px;
+        max-width: 40vw;
+    }
+}
+
