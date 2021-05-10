@@ -72,6 +72,10 @@ section {
 }
 
 /*-- Navbar --*/
+.navbar img {
+    height: 30px;
+    width: auto; 
+}
 
 .font-brand {
     font-family: 'Comfortaa', cursive;
@@ -101,10 +105,11 @@ section {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-
+/*
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    */
 }
 
 .jumbotron {
@@ -237,3 +242,13 @@ footer .nav-link {
     }
 }
 
+/* for very narrow mobiles (galaxy fold, iphone 5, iphone se) */
+@media screen and (max-width: 350px) {
+    .navbar img {
+        height: 20px;
+        width: auto; 
+    }
+    .navbar-brand {
+        font-size: 1rem;
+    }
+}
