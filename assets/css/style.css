@@ -188,7 +188,7 @@ section {
 /*-- Section 4: Contact --*/
 
 .contact-container {
-    background: url(../images/the-shop.jpg) no-repeat left bottom;
+    background: url(../images/the-shop.jpg) no-repeat left bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -197,7 +197,7 @@ section {
 }
 
 .overlay {
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255,255,255,0.8);
     width: fit-content;
 }
 
