@@ -24,7 +24,7 @@ body {
     margin-right: 0;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     font-family: 'Merriweather', serif;
 }
 
@@ -186,7 +186,7 @@ section {
 }
 
 .modal-dialog {
-    margin: 0;
+    margin: 0 auto;
 }
 
 /*-- Section 4: Contact --*/
