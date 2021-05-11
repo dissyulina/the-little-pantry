@@ -236,7 +236,7 @@
                         <p>To receive the latest news, offers, tips on how to live zero-waste, and get 10% discount on your first purchase in The Little Pantry!</p>
                         <form action="" method="" id="join-mailist" class="form-inline justify-content-center">
                             <input type="email" placeholder="Enter your email address" class="input-mailist mt-2 mr-2" required>
-                            <input type="submit" value="Join" class="btn btn-orange mt-2" data-toggle="modal" data-target="#staticBackdrop">
+                            <input type="submit" value="Join" class="btn btn-orange mt-2">
                         </form>
                     </div>
                 </div>
@@ -401,7 +401,10 @@
     <script>
         $('#join-mailist').on('submit', function (e) {
             $('#modal-join-mailist').modal('show');
-        });
+            e.preventDefault();
+            $('#join-mailist')[0].reset();
+        }); 
+        
     </script>
 
 </body>
