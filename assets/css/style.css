@@ -185,6 +185,10 @@ section {
     padding: 5px;
 }
 
+.modal-dialog {
+    margin: 0;
+}
+
 /*-- Section 4: Contact --*/
 
 .contact-container {

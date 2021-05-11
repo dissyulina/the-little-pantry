@@ -242,30 +242,29 @@
                 </div>
             </div>
         </div>
+    </section>
 
-        <!-- Modal for the Join Mailing List button -->
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal fade" id="modal-join-mailist" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="staticBackdropLabel">Thank you for your subscription to our mailing list!</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <p>We've sent a welcome email with 10% discount code to your inbox for your next purchase at our shop! We're hoping to meet you soon!</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                        </div>
+    <!-- Modal for the Join Mailing List button -->
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal fade" id="modal-join-mailist" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Thank you for your subscription to our mailing list!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>We've sent a welcome email with 10% discount code to your inbox for your next purchase at our shop! We're hoping to meet you soon!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
-
-    </section>
+    </div>
     
     <!-- Section 4: Contact-->
     <section id="contact" class="pt-0">
@@ -277,7 +276,7 @@
                         <p>Do you have questions or comments? We also love to hear what you think - good or bad! Fill in the form below and we’ll get back to you as soon as we can!</p>
                     </div>
                     <div>
-                        <form>
+                        <form id="contact-form">
                             <div class="form-group">
                                 <label for="input-name">Name</label>
                                 <input type="text" class="form-control" id="input-name" required>
@@ -304,6 +303,28 @@
             </div>
         </div>
     </section>
+
+    <!-- Modal for the Send Message button -->
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal fade" id="modal-contact-form" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">We've received your message.</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Thank you for your message! We'll get back to you as soon as we can.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Section 5: Find Us-->
     <section id="find-us" class="pt-0">
@@ -403,6 +424,12 @@
             $('#modal-join-mailist').modal('show');
             e.preventDefault();
             $('#join-mailist')[0].reset();
+        }); 
+        
+        $('#contact-form').on('submit', function (e) {
+            $('#modal-contact-form').modal('show');
+            e.preventDefault();
+            $('#contact-form')[0].reset();
         }); 
         
     </script>
