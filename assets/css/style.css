@@ -181,6 +181,19 @@ section {
     font-weight: 500;
 }
 
+.faq-container .btn:hover {
+   background-color: #F0E4D8;
+}
+
+#how-to-shop .faq-container .btn i:hover {
+    color: #8d3e26;
+}
+
+.faq-container .card-body {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 /*-- Subsection: Did you know --*/
 
 #did-you-know {
