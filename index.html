@@ -267,8 +267,8 @@
                     <div class="mt-5">
                         <h3>Join our mailing list!</h3>
                         <p>To receive the latest news, offers, tips on how to live zero-waste, and get 10% discount on your first purchase in The Little Pantry!</p>
-                        <form action="" method="" id="join-mailist" class="form-inline justify-content-center">
-                            <input type="email" placeholder="Enter your email address" class="input-mailist mt-2 mr-2" required>
+                        <form action="" method="" id="join-mailinglist" class="form-inline justify-content-center">
+                            <input type="email" placeholder="Enter your email address" class="input-mailinglist mt-2 mr-2" required>
                             <input type="submit" value="Join" class="btn btn-orange mt-2">
                         </form>
                     </div>
@@ -278,7 +278,7 @@
     </section>
 
     <!-- Modal for the Join Mailing List button -->
-    <div class="modal fade" id="modal-join-mailist" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal fade" id="modal-join-mailinglist" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content bg-cream">
                 <div class="modal-header">
@@ -451,10 +451,10 @@
 
     <!-- To show modal after the user send a valid form, code adapted from Stack Overflow -->
     <script>
-        $('#join-mailist').on('submit', function (e) {
-            $('#modal-join-mailist').modal('show');
+        $('#join-mailinglist').on('submit', function (e) {
+            $('#modal-join-mailinglist').modal('show');
             e.preventDefault();
-            $('#join-mailist')[0].reset();
+            $('#join-mailinglist')[0].reset();
         }); 
         
         $('#contact-form').on('submit', function (e) {
