@@ -119,7 +119,7 @@ section {
 }
 
 .jumbotron {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.8);
     margin-left: 15px;   
     margin-right: 15px;
 }
@@ -249,7 +249,18 @@ footer .nav-link {
 
 /*-- Media Queries --*/
 
-/* for small devices, landscape phone, or less */
+/* For very narrow mobiles (galaxy fold, iphone 5, iphone se) */
+@media screen and (max-width: 350px) {
+    .navbar img {
+        height: 20px;
+        width: auto; 
+    }
+    .navbar-brand {
+        font-size: 1rem;
+    }
+}
+
+/* For small devices, landscape phone, or less */
 @media screen and (max-width: 576px) {
     .jumbotron-header {
         font-weight: 600;
@@ -257,10 +268,17 @@ footer .nav-link {
     }
 }
 
-/* for medium to large devices (tablets to desktop) */
+/* For medium to large devices (tablets to desktop) */
 @media screen and (min-width: 992px) and (max-width: 1599.99px) {
     .jumbotron {
         max-width: 50vw;
+    }
+}
+
+/* For large devices (desktop) and up */
+@media screen and (min-width: 992px) {
+    .jumbotron {
+    background-color: rgba(255,255,255,0.5);
     }
 }
 
@@ -272,13 +290,3 @@ footer .nav-link {
     }
 }
 
-/* for very narrow mobiles (galaxy fold, iphone 5, iphone se) */
-@media screen and (max-width: 350px) {
-    .navbar img {
-        height: 20px;
-        width: auto; 
-    }
-    .navbar-brand {
-        font-size: 1rem;
-    }
-}
