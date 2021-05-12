@@ -1,8 +1,7 @@
-/*
 html {
     scroll-behavior: smooth;
 }
-*/
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -172,7 +171,8 @@ section {
 
 /*-- Section 3: How To Shop --*/
 
-#how-to-shop i {
+.howtoshop-container i,
+.faq-container i {
     color: #E86F4A;
 }
 
@@ -185,7 +185,7 @@ section {
    background-color: #F0E4D8;
 }
 
-#how-to-shop .faq-container .btn i:hover {
+.faq-container .btn i:hover {
     color: #8d3e26;
 }
 
