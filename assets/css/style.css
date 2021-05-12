@@ -170,8 +170,9 @@ section {
     color: #E86F4A;
 }
 
-.faq-container i {
-    color: #45545E;
+.faq-container .question {
+    font-size: 20px;
+    font-weight: 500;
 }
 
 /*-- Subsection: Did you know --*/
