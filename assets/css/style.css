@@ -10,12 +10,6 @@ body {
     position: relative;
 }
 
-/*
-body {
-    overflow-x: hidden!important;
-  }
-*/
-
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
@@ -110,11 +104,6 @@ section {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-/*
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    */
 }
 
 .jumbotron {
@@ -153,7 +142,11 @@ section {
 
 .card-img-top {
     border-radius: 10px;
+    max-width: 400px; 
+    height: auto;
+    margin: auto;
 }
+
 .card-title {
     font-family: 'Merriweather', serif;
     font-weight: 700;
