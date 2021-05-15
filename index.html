@@ -52,8 +52,10 @@
             </ul>
         </div>
     </nav>
+    <!-- End of Navbar -->
 
-    <!-- Header & Hero Image 
+    <!-- Header & Hero Image -->
+    <!--
     <header>
         <div class="container-fluid header-container d-flex align-items-center justify-content-center justify-content-lg-end">
             <div class="jumbotron text-left text-lg-right">
@@ -76,9 +78,12 @@
         </div>
         </div>
     </header>
+    <!-- End of Header & Hero Image -->
 
     <!-- Section 1: About Us-->
     <section id="about">
+
+        <!--Subsection: Who We Are-->
         <div class="container text-center mx-auto about-text">
             <h2 class="section-title-heading my-5">Who We Are</h2>
             <p class="about-paragraph">Packaging waste is a problem worldwide - tons of plastic winds up in our ocean destroying sea life, and on earth, plastic takes the longest time to decompose compared to other materials. That’s why we are here as a plastic-free grocery shop where we sell everything in a bulk system. You can bring your containers from home, and refill them at our shop as much as you need. Together we can make a significant impact to do better for our mother earth!
@@ -132,13 +137,15 @@
             </div>
         </div>
     </section>
+    <!-- End of Section 1: About Us-->
 
     <!-- Section 2: Products -->
     <section id="products">
         <div class="container-fluid bg-cream px-0">
             <div class="row no-gutters d-flex align-items-center">
+
+                <!-- Carousel Products-->
                 <div class="col-12 col-lg-6 px-lg-3">
-                    <!-- Carousel -->
                     <div id="carousel-indicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carousel-indicators" data-slide-to="0" class="active"></li>
@@ -166,6 +173,8 @@
                         </a>
                     </div>
                 </div>
+
+                <!-- Text Products-->
                 <div class="col-12 col-lg-6 px-3 products-text">
                     <div class="container">
                         <h2 class="section-title-heading text-center text-lg-left pb-3">What We Sell</h2>
@@ -189,12 +198,15 @@
             </div>
         </div>
     </section>
+    <!-- End of Section 2: Products -->
 
-    <!-- Section 3: How To Shop-->
+    <!-- Section 3: How to Shop-->
     <section id="how-to-shop">
+
+        <!--Subsection: 3 Steps of How to Shop-->
         <div class="container howtoshop-container">
             <div class="row justify-content-center">
-                <h2 class="section-title-heading my-5">How To Shop</h2>
+                <h2 class="section-title-heading my-5">How to Shop</h2>
             </div>
             <div class="row justify-content-center text-center row-cols-1 row-cols-md-2 row-cols-lg-3">
                 <div class="col my-3 px-4">
@@ -288,32 +300,31 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Modal for the Join Mailing List button -->
-    <div class="modal fade" id="modal-join-mailinglist" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="thankyou-notification" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content bg-cream">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="thankyou-notification">Thank you for your subscription to our mailing list!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>We've sent a welcome email with a 10% discount code to your inbox for your next purchase at our shop. See you soon!</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-orange" data-dismiss="modal">Close</button>
+        
+        <!-- Modal for the Join Mailing List button -->
+        <div class="modal fade" id="modal-join-mailinglist" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="thankyou-notification" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content bg-cream">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="thankyou-notification">Thank you for your subscription to our mailing list!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>We've sent a welcome email with a 10% discount code to your inbox for your next purchase at our shop. See you soon!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-orange" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    
-    
-    <!-- Section 4: Contact-->
+    </section>
+    <!-- End of Section -->
+
+    <!-- Section 4: Contact Form -->
     <section id="contact" class="pt-0">
-        <!-- <div class="container-fluid contact-container py-5"> -->
         <div class="container-fluid">
             <div class="contact-container py-5" title="Inside the shop.">
                 <div class="overlay mx-auto py-3">
@@ -350,28 +361,29 @@
                 </div>
             </div>
         </div>
-    </section>
 
-    <!-- Modal for the Send Message button -->
-    <div class="modal fade" id="modal-contact-form" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="message-received" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content bg-cream">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="message-received">Thank you for your message!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>We've received your message, and we'll get back to you as soon as we can.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-orange" data-dismiss="modal">Close</button>
+        <!-- Modal for the Send Message button -->
+        <div class="modal fade" id="modal-contact-form" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="message-received" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content bg-cream">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="message-received">Thank you for your message!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>We've received your message, and we'll get back to you as soon as we can.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-orange" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     
+    </section>
+    <!-- End of Section-->
 
     <!-- Section 5: Find Us-->
     <section id="find-us" class="pt-0">
@@ -379,6 +391,7 @@
             <div class="container py-5 px-3">
                 <h2 class="section-title-heading text-center m-4">We hope to meet you soon!</h2>
                 <div class="row">
+                    <!-- Location, Opening Hours, and Contact -->
                     <div class="col-12 col-md-6 py-4">
                         <div class="container">
                             <div>
@@ -400,6 +413,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Google Map -->
                     <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
                         <div class="map-wrapper">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2451.9742137645035!2d4.320539715881543!3d52.080199276480904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b71820f2aca9%3A0x84aad537af602298!2sRijnstraat%2014%2C%202515%20XP%20Den%20Haag!5e0!3m2!1sen!2snl!4v1619774486247!5m2!1sen!2snl"  loading="lazy" aria-label="The little pantry on google map"><p>Your browser does not support iframe</p></iframe>
@@ -409,6 +424,7 @@
             </div>
         </div>
     </section>
+    <!-- End of Section -->
 
     <!-- Footer -->
     <footer id="footer">
@@ -451,6 +467,7 @@
             </div>
         </div>
     </footer>
+    <!-- End of Footer -->
 
     <!-- Bootstrap jQuery and bootsrap bundle -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
