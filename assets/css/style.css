@@ -207,12 +207,11 @@ section {
 /*-- Section 4: Contact --*/
 
 .contact-container {
-    background: url(../images/the-shop.jpg) no-repeat center center fixed;
+    background: url(../images/the-shop.jpg) no-repeat center bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    position: relative;
 }
 
 .overlay {
