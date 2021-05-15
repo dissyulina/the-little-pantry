@@ -245,6 +245,11 @@ footer .nav-link {
     font-size: 24px;
 }
 
+#footer a > img {
+    width: auto; 
+    height: 20px; 
+}
+
 /*-- Media Queries --*/
 
 /* For very narrow mobiles (galaxy fold, iphone 5, iphone se) */

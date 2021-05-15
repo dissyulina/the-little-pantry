@@ -8,12 +8,12 @@
     <meta name="keywords" content="plastic free, packaging free, zero waste, grocery, grocery shop, organic">
     
     <!-- Bootstrap CSS -->
-    <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
     <!-- Font Awesome -->
-    <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link async href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
@@ -67,7 +67,7 @@
 
     <header>
         <div class="container-fluid">
-            <div class="header-container" title="Pasta and beans in jars, with two wooden spoons.">
+            <div class="header-container" title="Pasta and beans in jars, with two wooden spoons. Photo from Freepik.">
             <div class="jumbotron text-left text-md-center text-lg-right">
                 <h1 class="display-4 jumbotron-header">Love your planet.<br>Shop plastic free.</h1>
                 <p class="mt-4 jumbotron-subheader"><span class="d-none d-md-inline">Grocery shopping without plastic is easier than you think.<br></span>Bring your shopping bag and empty containers, and shop with us!</p>
@@ -156,11 +156,11 @@
                                 <img src="../assets/images/products-housewares.jpg" class="d-block w-100" alt="Housewares at the shop, photo by Anna Oliinyk on Unsplash.">
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carousel-indicators" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#carousel-indicators" role="button" data-slide="prev" aria-label="Previous photo">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carousel-indicators" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#carousel-indicators" role="button" data-slide="next" aria-label="Next photo">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
@@ -198,17 +198,17 @@
             </div>
             <div class="row justify-content-center text-center row-cols-1 row-cols-md-2 row-cols-lg-3">
                 <div class="col my-3 px-4">
-                    <i class="fas fa-weight fa-5x mb-2"></i>
+                    <i class="fas fa-weight fa-5x mb-2" aria-label="a weigh scale icon"></i>
                     <h4 class="mt-3">1. Weigh</h4>
                     <p>Bring your container from home. Weigh your container (with the lid on) at the weighing station. Print the sticker label and stick it on your container.</p>
                 </div>
                 <div class="col my-3 px-4">
-                    <i class="fas fa-glass-whiskey fa-5x mb-2"></i>
+                    <i class="fas fa-glass-whiskey fa-5x mb-2" aria-label="a filled-in container icon"></i>
                     <h4 class="mt-3">2. Fill</h4>
                     <p>Fill in as much as you need. Please note that for spices, there’s a minimum amount of 10 grams purchase (which equals to 1 spoonful).</p>
                 </div>
                 <div class="col my-3 px-4">
-                    <i class="fas fa-cash-register fa-5x mb-2"></i>
+                    <i class="fas fa-cash-register fa-5x mb-2" aria-label="a cashier icon"></i>
                     <h4 class="mt-3">3. Pay</h4>
                     <p>The initial weight will be deducted from the total weight, so you only pay what’s inside.</p>
                 </div>
@@ -281,8 +281,8 @@
                         <h3>Join our mailing list!</h3>
                         <p>To receive the latest news, offers, tips on how to live zero-waste, and get a 10% discount on your first purchase in The Little Pantry!</p>
                         <form action="" method="" id="join-mailinglist" class="form-inline justify-content-center">
-                            <input type="email" placeholder="Enter your email address" class="input-mailinglist mt-2 mr-2" required>
-                            <input type="submit" value="Join" class="btn btn-orange mt-2">
+                            <input type="email" placeholder="example@mail.com" class="input-mailinglist mt-2 mr-2" aria-label="Enter your email address here" required>
+                            <button type="submit" class="btn btn-orange mt-2">Join</button>
                         </form>
                     </div>
                 </div>
@@ -395,14 +395,14 @@
                             </div>
                             <div>
                                 <h4>Contact Us</h4>
-                                <p><i class="fas fa-phone"></i> 0612345678<br>
-                                <i class="fas fa-envelope"></i> contact@thelittlepantry.nl</p>
+                                <p><i class="fas fa-phone" aria-label="phone icon"></i> 0612345678<br>
+                                <i class="fas fa-envelope" aria-label="envelope icon"></i> contact@thelittlepantry.nl</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
                         <div class="map-wrapper">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2451.9742137645035!2d4.320539715881543!3d52.080199276480904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b71820f2aca9%3A0x84aad537af602298!2sRijnstraat%2014%2C%202515%20XP%20Den%20Haag!5e0!3m2!1sen!2snl!4v1619774486247!5m2!1sen!2snl"  loading="lazy" title="the little pantry on google map"><p>Your browser does not support iframe</p></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2451.9742137645035!2d4.320539715881543!3d52.080199276480904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b71820f2aca9%3A0x84aad537af602298!2sRijnstraat%2014%2C%202515%20XP%20Den%20Haag!5e0!3m2!1sen!2snl!4v1619774486247!5m2!1sen!2snl"  loading="lazy" aria-label="The little pantry on google map"><p>Your browser does not support iframe</p></iframe>
                         </div>
                     </div>
                 </div>
@@ -435,7 +435,7 @@
                 <div class="row">
                     <div class="col-12 col-md-6 py-1">
                         <a class="font-brand d-flex justify-content-center justify-content-md-start" href="#">
-                            <img src="assets/images/logo.png" width="auto" height="20" class="d-inline-block align-top" alt="The Little Pantry's logo" loading="lazy"> 
+                            <img src="assets/images/logo.png" class="d-inline-block align-top" alt="The Little Pantry's logo" loading="lazy"> 
                             the little pantry
                         </a>
                     </div>
@@ -453,9 +453,9 @@
     </footer>
 
     <!-- Bootstrap jQuery and bootsrap bundle -->
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 
     <!-- To collapse back hamburger menu after choosing a section, code adapted from Stack Overflow -->
     <script>
