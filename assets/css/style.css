@@ -1,7 +1,8 @@
+/*--==== General ====--*/
+
 html {
     scroll-behavior: smooth;
 }
-
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -33,7 +34,7 @@ section {
     font-weight: 600;
 }
 
-/*-- Button --*/
+/*--==== Button ====--*/
 
 .btn-orange {
     background: #E56138;
@@ -50,7 +51,7 @@ section {
     color: #fff;
 } 
 
-/*-- Background Color --*/
+/*--==== Background Color ====--*/
 
 .bg-gray-green {
     background-color: #9BAAAB;
@@ -68,7 +69,7 @@ section {
     background-color: #DBE9DF;
 }
 
-/*-- Navbar --*/
+/*--==== Navbar ====--*/
 
 .navbar img {
     height: 30px;
@@ -93,7 +94,7 @@ section {
     border-radius: 5px;
 }
 
-/*-- Header & Hero --*/
+/*--==== Header & Hero ====--*/
 
 .header-container {
     margin-top: 55px;
@@ -111,7 +112,6 @@ section {
 }
 
 .jumbotron {
-  
     background-color: rgba(255,255,255,0.8);
     margin-left: 15px;   
     margin-right: 15px;
@@ -129,7 +129,9 @@ section {
     color:#45545E;
 }
 
-/*-- Section 1: About Us --*/
+/*--==== Section 1: About Us ====--*/
+
+/*-- Subsection: Who We Are --*/
 
 .about-text {
     text-align: center;
@@ -140,6 +142,8 @@ section {
 .blockquote {
     font-family: 'Merriweather', serif;
 }
+
+/*-- Subsection: Why Shop With Us --*/
 
 .card {
     border: none;
@@ -158,7 +162,7 @@ section {
     font-weight: 700;
 }
 
-/*-- Section 2: Products --*/
+/*--==== Section 2: Products =====--*/
 
 .products-text {
     padding: 5rem 1rem;
@@ -168,7 +172,9 @@ section {
     list-style: none;
 }
 
-/*-- Section 3: How To Shop --*/
+/*--==== Section 3: How To Shop ====--*/
+
+/*-- Subsection: 3 Steps --*/
 
 .howtoshop-container i,
 .faq-container i {
@@ -204,7 +210,7 @@ section {
     padding: 5px;
 }
 
-/*-- Section 4: Contact --*/
+/*--==== Section 4: Contact ====--*/
 
 .contact-container {
     background: url(../images/the-shop.jpg) no-repeat center bottom fixed;
@@ -219,7 +225,7 @@ section {
     width: fit-content;
 }
 
-/*-- Section 5: Find Us --*/
+/*--==== Section 5: Find Us ====--*/
 
 .map-wrapper {
     width: 500px;
@@ -232,10 +238,12 @@ section {
     border-style: none;
 }
 
-/*-- Footer --*/
+/*--==== Footer ====--*/
+
 footer .nav-link {
     padding: 0;
 }
+
 #footer a,
 #footer li {
     color: #232B2F;
@@ -250,7 +258,7 @@ footer .nav-link {
     height: 20px; 
 }
 
-/*-- Media Queries --*/
+/*--==== Media Queries ====--*/
 
 /* For very narrow mobiles (galaxy fold, iphone 5, iphone se) */
 @media screen and (max-width: 350px) {
