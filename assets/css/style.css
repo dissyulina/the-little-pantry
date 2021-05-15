@@ -164,6 +164,12 @@ section {
 
 /*--==== Section 2: Products =====--*/
 
+.carousel-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .products-text {
     padding: 5rem 1rem;
 }
