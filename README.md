@@ -4,7 +4,7 @@
 ![alt text](assets/documentation/website-responsive.jpg "The Little Pantry's website in variouse devices")
 
 ## **Introduction**
----
+
 
 Welcome to the website of The Little Pantry!
 
@@ -16,7 +16,8 @@ Please note that this company is fictional and was created for the Code Institut
 <br />
 
 ## **Development Plane**
----
+<br />  
+
 ### **1. Strategy Plane** 
 
 As The Little Pantry is a fictional business, a strategic UX research was done through: 
@@ -24,7 +25,8 @@ As The Little Pantry is a fictional business, a strategic UX research was done t
 * An interview with a zero-waste enthusiast.
 * Online research of competitors (similar shops located in the same city), and news related to the rising of the plastic-free shop.
 
-Below are the result of the comprehensive and detailed interviews and research that have been conducted.
+Below are the result of the comprehensive and detailed interviews and research that have been conducted.  
+<br />
 
    #### **User Stories**
  - **First Time Visitor Goal**
@@ -55,7 +57,40 @@ Below are the result of the comprehensive and detailed interviews and research t
 
    2. Competitor Research  
        According to online research that the developer did, some similar businesses to The Little Pantry were found in Den Haag, The Netherlands.  
-         * Lekkernasuh (https://www.lekernasuh.org)
+         * [Lekkernasuh](https://lekkernassuh.org)  
+         Lekkernassuh is a physical plastic/packaging-free shop, almost similar to The Little Pantry. However, they are located in a sports hall, and only opens for 3 hours, once every two weeks (on Saturday). It is more of a community market, and the workers are all volunteers, so it lacks a clean, modern, and professional feel to it.
+         * Traditional Markets in Den Haag  
+         There are also traditional markets in Den Haag, where you can buy fruits, vegetables, meat, etc. In this type of market, the food items are typically not in plastic packaging, so you can always shop plastic-free. However, as many traditional markets usually are, they don’t have a website and are lacking food items such as beans, grains, dry spices, etc. 
+         * [Pieter Pot](https://www.pieter-pot.nl)  
+         There’s also an online packaging-free shop, which has no physical shop. They deliver your grocery in glass jars (where you also pay for the jars), and at the next delivery you give the jars back (then you also get your money back). The website looks quite professional, but as I mentioned before, what they are lacking is a physical shop.  
+<br />
+
+   #### **Project Goals**
+   The project goal is to provide an informational and promotional website of The Little Pantry, for customers and potential customers, so that they’re interested to visit and shop regularly at The Little Pantry.  
+<br />
+
+   #### **User Goals**
+   The target audience for this website is:
+   - Young adult to adult, 20-50 years old
+   - Living in Den Haag, The Netherlands
+   - Care about the environmental issue
+   - Have started or think about starting to reduce waste in their daily lives
+   - More modern and minimalistic lifestyle 
+   The user's goal when visiting this website is to get comprehensive information about The Little Pantry, as a plastic-free / packaging-free grocery shop.  
+<br />
+
+   #### **Business Goals**
+   The business concept itself is relatively new, therefore the website has to provide clear and relevant information about the buying process and what the customer can expect when they visit the shop. 
+   - To create an online presence of the shop. 
+   - To acquire new customers to the business
+   - To introduce a plastic-free concept in grocery shopping and how it works to potential customers.
+   - And finally, to create a customer engagement to the shop, making The Daily Pantry their regular choice for grocery shopping.  
+
+<br />
+
+   
+
+
          
     
 
