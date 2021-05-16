@@ -139,7 +139,24 @@ Functionality requirements:
 <br/>
 
 ### **3. Structure Plane** 
+The contents were organized in a Hierarchical Tree Structure that ensures the user navigates easily and intuitively.
+
+![alt text](assets/documentation/structure.jpg "The mapping of the opportunities")
+
+These contents were implemented on a single-page website, in consideration of:
+-  The user can see and read the contents quickly and with less learning curve.
+-  There’s only one single product that we are promoting (in this case The Little Pantry), so it has to be simple and straightforward.
+-  The end goal is: for the user to visit the store. The user doesn’t purchase on the website, so it’s better to keep the complexity of the information minimum.  
+<br />
+
+### **4. Skeleton Plane** 
+Wireframes were created using Figma to design the navigation and interface of the website. The developer designed it with a good UI design in mind, which allows immediate interaction in first-time learning, and perfectly meets the needs of the intended audience.  
+
+The wireframes can be found in the link below:  
+
+[Wireframes for desktop](assets/wireframes/wireframe-desktop.png)  
+[Wireframes for tablet](assets/wireframes/wireframe-tablet.png)  
+[Wireframes for mobile](assets/wireframes/wireframe-mobile.png)  
 
 
-### **4. Strategy Plane** 
 ### **1. Strategy Plane** 
