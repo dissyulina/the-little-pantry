@@ -1,7 +1,7 @@
 # The Little Pantry
  
 
-![alt text](assets/documentation/website-responsive.jpg "The Little Pantry's website in variouse devices")
+![alt text](assets/documentation/website-responsive.jpg "The Little Pantry's website in various devices")
 
 ## **Introduction**
 
@@ -56,7 +56,7 @@ Below are the result of the comprehensive and detailed interviews and research t
        According to research by Afval Barometer from SUEZ (source: afvalgids.nl), 95% of Netherlands residents agree that separating the trash (into plastic, glass, paper, and the rest) is important, but only 60% do it. The Little Pantry is created as an alternative to a regular supermarket, so instead of separating the trash which requires more effort, we remove the packaging altogether.  
 
    2. Competitor Research  
-       According to online research that the developer did, some similar businesses to The Little Pantry were found in Den Haag, The Netherlands.  
+       According to online research that I did, some similar businesses to The Little Pantry were found in Den Haag, The Netherlands.  
          * [Lekkernasuh](https://lekkernassuh.org)  
          Lekkernassuh is a physical plastic/packaging-free shop, almost similar to The Little Pantry. However, they are located in a sports hall, and only opens for 3 hours, once every two weeks (on Saturday). It is more of a community market, and the workers are all volunteers, so it lacks a clean, modern, and professional feel to it.
          * Traditional Markets in Den Haag  
@@ -88,14 +88,58 @@ Below are the result of the comprehensive and detailed interviews and research t
 
 <br />
 
+   #### **Website Considerations**
+   The Little Pantry has a Business-To-Customer (B2C) product, which has considerations as below:  
+   * Headline and content are catchy and compelling.
+   * Minimal content, large images.
+   * The design stands out amongst the competitors.  
    
+   However, it has a slightly different purpose from other B2C. The end goal of a normal B2C is for the user to click “buy” or to make a purchase, but in this case, the end goal is for the user to visit the shop (and to make a purchase there). So, in this case, this website has only an informational/ promotional purpose.  
+   <br />
+
+   #### **Strategy Table**
+   Based on these research, goals, and the considerations above, I brainstormed all of the opportunities that could be implemented in the website. All of those opportunities were mapped based on their importance (driven by business goals and user needs), and viability (given limited time and resources), to determine which opportunities were going to be included and which were not.  
+
+Opportunities / Features | Importance | Viability
+--- | --- | ---
+A. Background story about plastic pollution | 4 | 5
+B. Story about The Little Pantry | 2 | 5
+C. The benefits | 3 | 3
+D. The product list | 4 | 4
+E. How it works | 5 | 3
+F. Photo gallery | 2 | 2
+G. Testimonials / Reviews | 1 | 3
+H. Contact form | 4 | 3
+I. FAQs | 4 | 4
+J. Location, Opening Hours | 5 | 5  
+
+<br />
+
+The chart below is the mapping of all of the opportunities. The yellow circle signifies which opportunities/ features have the highest combination of importance and viability.  
+
+![alt text](assets/documentation/strategy-mapping.png "The mapping of the opportunities")
+
+<br />
 
 
-         
-    
+### **2. Scope Plane** 
+Based on the mapping in Strategy Plane, I decided to include these contents below in the website:
+-	Background story about plastic pollution
+-	The product list
+-	How it works
+-	The benefits
+-	Contact form
+-	FAQs
+-	Location and Opening hours  
+
+Functionality requirements:
+-	The user can navigate easily through the website to access all the contents
+-	The user can easily contact the shop
+
+<br/>
+
+### **3. Structure Plane** 
 
 
-### **1. Strategy Plane** 
-### **1. Strategy Plane** 
-### **1. Strategy Plane** 
+### **4. Strategy Plane** 
 ### **1. Strategy Plane** 
