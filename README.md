@@ -154,9 +154,9 @@ Wireframes were created using Figma to design the navigation and interface of th
 
 The wireframes can be found in the link below:  
 
-[Wireframes for desktop](assets/wireframes/wireframe-desktop.png)  
-[Wireframes for tablet](assets/wireframes/wireframe-tablet.png)  
-[Wireframes for mobile](assets/wireframes/wireframe-mobile.png)  
+[Wireframes for desktop](assets/wireframes/wireframes-desktop.png)  
+[Wireframes for tablet](assets/wireframes/wireframes-tablet.png)  
+[Wireframes for mobile](assets/wireframes/wireframes-mobile.png)  
 
 
 ### **1. Strategy Plane** 
