@@ -103,10 +103,7 @@ section {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    -webkit-background-attachment: scroll;
-    -moz-background-attachment: fixed;
-    -o-background-attachment: fixed;
-    background-attachment: fixed;
+    background-attachment: fixed; 
 
     display: flex;
     flex-direction: row;
@@ -233,9 +230,6 @@ section {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    -webkit-background-attachment: scroll;
-    -moz-background-attachment: fixed;
-    -o-background-attachment: fixed;
     background-attachment: fixed;
 }
 
@@ -298,6 +292,14 @@ footer .nav-link {
     }
 }
 
+/* For mobiles and ipads (background-attachment:fixed doesn't work on iOS mobiles & tablets)*/
+@media screen and (max-width: 1024px) {
+    .header-container, 
+    .contact-container {
+        background-attachment: scroll;
+    }
+}
+
 /* For medium to large devices (tablets to desktop) */
 @media screen and (min-width: 992px) and (max-width: 1599.99px) {
     .jumbotron {
@@ -322,4 +324,5 @@ footer .nav-link {
         max-width: 40vw;
     }
 }
+
 
