@@ -164,5 +164,27 @@ For better and clearer visualization before coding, and also to check if the col
 
 
    #### **Color Scheme**  
-The colors used are primarily derived from the logo, the hero image, and other images in the website, to create a cohesive color scheme from beginning to end. I used [Coolors](https://coolors.co) to identify the three colors (in the middle) from the images and add another two colors that fit well with the other three.  
-![alt text](assets/documentation/color-scheme.jpg "The color scheme") 
+   The colors used are primarily derived from the logo, the hero image, and other images in the website, to create a cohesive color scheme from beginning to end. I used [Coolors](https://coolors.co) to identify the three colors (in the middle) from the images and add another two colors that fit well with the other three.  
+   ![alt text](assets/documentation/color-scheme.jpg "The color scheme")  
+
+
+
+   #### **Typography**  
+   All of the fonts were sourced from the [Google Fonts](https://fonts.google.com).  
+
+   *	Main font: Roboto  
+     Roboto is used as the main font, for all paragraphs, and links in navbar and footer. Roboto was chosen because it has modern, clean, and simple style of a sans-serif font, and following the recommendation in Google fonts of popular pairing font with Merriweather.  
+
+   * Secondary font: Merriweather  
+     Merriweather is used as the header (h1 – h5) font for the website. It was chosen first, since I wanted to choose a beautiful and impactful font for the heading inside the hero-image, since that is the first impression of the website from the user’s perspective. 
+   Merriweather is also used as a font for the quote in About Us section, to differentiate the quote with a normal paragraph and make it stands out more.
+
+   * Tertiary font: Comfortaa  
+     Comfortaa is a cursive font, and used only for the logo.  
+
+
+   #### **Imagery**  
+   These images were sourced from [Freepik](https://www.freepik.com), [Pexels](https://www.pexels.com), and [Unsplash](), and are referenced in the code in the alt attribute.  
+   * Hero Image is chosen because it’s minimalistic, so the heading text can stand out more, and it’s giving a clean and fresh feeling of living “zero-waste”.
+   * All of the images in the website were taken from a free stock-photos website, as representations of what’s inside the shop, to provide clear imagery to the user and let the user know what to expect (the products sold, what the bulk-system is, etc.)
+
