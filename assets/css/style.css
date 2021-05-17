@@ -103,10 +103,14 @@ section {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+<<<<<<< HEAD
     -webkit-background-attachment: scroll;
     -moz-background-attachment: fixed;
     -o-background-attachment: fixed;
     background-attachment: fixed;
+=======
+    background-attachment:scroll; 
+>>>>>>> ba5274c7dddadcb6bee471fb62a908b12402269e
 
     display: flex;
     flex-direction: row;
@@ -233,10 +237,14 @@ section {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+<<<<<<< HEAD
     -webkit-background-attachment: scroll;
     -moz-background-attachment: fixed;
     -o-background-attachment: fixed;
     background-attachment: fixed;
+=======
+    background-attachment:scroll; 
+>>>>>>> ba5274c7dddadcb6bee471fb62a908b12402269e
 }
 
 .overlay {
