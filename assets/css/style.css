@@ -103,7 +103,8 @@ section {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+    background-attachment:scroll; 
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -229,6 +230,7 @@ section {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-attachment:scroll; 
 }
 
 .overlay {
