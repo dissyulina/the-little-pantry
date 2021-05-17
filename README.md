@@ -160,5 +160,9 @@ The wireframes can be found in the link below:
 
 ### **5. Surface Plane** 
 For better and clearer visualization before coding, and also to check if the color scheme and images work great together, a high-fidelity mockup for desktop was made, and can be found in the link below.  
-[High-fidelity mock up for desktop](assets/wireframes/high-fidelity-mockuo-desktop.png)
+[High-fidelity mock up for desktop](assets/wireframes/high-fidelity-mockup-desktop.png)
 
+
+   #### **Color Scheme**  
+The colors used are primarily derived from the logo, the hero image, and other images in the website, to create a cohesive color scheme from beginning to end. I used [Coolors](https://coolors.co) to identify the three colors (in the middle) from the images and add another two colors that fit well with the other three.  
+![alt text](assets/documentation/color-scheme.jpg "The color scheme") 
