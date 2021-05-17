@@ -98,12 +98,16 @@ section {
 .header-container {
     margin-top: 55px;
     height: 100vh;
-    background: url(../images/hero-image.jpg) no-repeat center center fixed;
+    background: url(../images/hero-image.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+    -webkit-background-attachment: scroll;
+    -moz-background-attachment: fixed;
+    -o-background-attachment: fixed;
+    background-attachment: fixed;
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -224,11 +228,15 @@ section {
 /*--==== Section 4: Contact ====--*/
 
 .contact-container {
-    background: url(../images/the-shop.jpg) no-repeat center bottom fixed;
+    background: url(../images/the-shop.jpg) no-repeat center bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    -webkit-background-attachment: scroll;
+    -moz-background-attachment: fixed;
+    -o-background-attachment: fixed;
+    background-attachment: fixed;
 }
 
 .overlay {
