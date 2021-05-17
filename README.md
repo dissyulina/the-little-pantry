@@ -13,7 +13,6 @@ The Little Pantry is a small plastic-free grocery shop located in Den Haag, The 
 Please note that this company is fictional and was created for the Code Institute’s Milestone Project 1 as part of their Diploma in Full Stack Software Development. The requirements are to make a static front-end website, using HTML, CSS, and (optional) Bootstrap or other CSS frameworks.  
 
 <br />
-<br />
 
 ## **Development Plane**
 <br />  
@@ -154,9 +153,12 @@ Wireframes were created using Figma to design the navigation and interface of th
 
 The wireframes can be found in the link below:  
 
-[Wireframes for desktop](assets/wireframes/wireframes-desktop.png)  
-[Wireframes for tablet](assets/wireframes/wireframes-tablet.png)  
-[Wireframes for mobile](assets/wireframes/wireframes-mobile.png)  
+  * [Wireframes for desktop](assets/wireframes/wireframes-desktop.png)  
+  * [Wireframes for tablet](assets/wireframes/wireframes-tablet.png)  
+  * [Wireframes for mobile](assets/wireframes/wireframes-mobile.png)  
 
 
-### **1. Strategy Plane** 
+### **5. Surface Plane** 
+For better and clearer visualization before coding, and also to check if the color scheme and images work great together, a high-fidelity mockup for desktop was made, and can be found in the link below.  
+[High-fidelity mock up for desktop](assets/wireframes/high-fidelity-mockuo-desktop.png)
+
