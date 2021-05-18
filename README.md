@@ -1,7 +1,10 @@
 # The Little Pantry
  
 
-![alt text](assets/documentation/website-responsive.jpg "The Little Pantry's website in various devices")
+![alt text](assets/documentation/website-responsive.jpg "The Little Pantry's website in various devices")  
+
+[View live website here](https://dissyulina.github.io/the-little-pantry/)
+
 
 ## **Introduction**
 
@@ -12,11 +15,9 @@ The Little Pantry is a small plastic-free grocery shop located in Den Haag, The 
 
 Please note that this company is fictional and was created for the Code Institute’s Milestone Project 1 as part of their Diploma in Full Stack Software Development. The requirements are to make a static front-end website, using HTML, CSS, and (optional) Bootstrap or other CSS frameworks.  
 
-<br />
 
 ## **Development Plane**
-<br />  
-
+ 
 ### **1. Strategy Plane** 
 
 As The Little Pantry is a fictional business, a strategic UX research was done through: 
@@ -116,7 +117,7 @@ J. Location, Opening Hours | 5 | 5
 
 The chart below is the mapping of all of the opportunities. The yellow circle signifies which opportunities/ features have the highest combination of importance and viability.  
 
-![alt text](assets/documentation/strategy-mapping.png "The mapping of the opportunities")
+![alt text](assets/documentation/opportunities-mapping.png "The mapping of the opportunities")
 
 <br />
 
@@ -186,5 +187,36 @@ For better and clearer visualization before coding, and also to check if the col
    #### **Imagery**  
    These images were sourced from [Freepik](https://www.freepik.com), [Pexels](https://www.pexels.com), and [Unsplash](), and are referenced in the code in the alt attribute.  
    * Hero Image is chosen because it’s minimalistic, so the heading text can stand out more, and it’s giving a clean and fresh feeling of living “zero-waste”.
-   * All of the images in the website were taken from a free stock-photos website, as representations of what’s inside the shop, to provide clear imagery to the user and let the user know what to expect (the products sold, what the bulk-system is, etc.)
+   * All of the images in the website were taken from a free stock-photos website, as representations of what’s inside the shop, to provide clear imagery to the user and let the user know what to expect (the products sold, what the bulk-system is, etc.)  
+
+<br />
+
+## **Features**  
+### **Existing Features**  
+  1. Navigation Bar (Navbar)  
+      * The Navbar consists of a Logo on the left side that links to the top of the site, and five navigation links (nav-links) on the right side that link to the sections. It occupies 100% width of the site.  
+      * The Navbar is fully responsive on all device sizes. On desktop view, the user can see all the nav-links, while on a smaller device, the nav-links collapse to a hamburger menu. 
+      * The Nav-links have an active state which changes according to which section the user is currently looking at.  
+      * The Nav-links have a hover state (that looks the same as the active state) when the user hovers over them.  
+      * The Navbar is also fixed at the top of the user’s device screen, it follows along when the user scrolls down, so the user can easily navigate the site without scrolling back to the top.  
+
+  2. Hero Page / Header  
+     * The hero-image covers 100% of the viewport height and width, with an  impactful heading in a jumbotron to give the user a great first impression.  
+     * The main color of the hero-image is mint-green, which gives a fresh, clean, and modern feeling to the website. 
+     * The jumbotron is fully responsive on all device sizes. On a mobile device, it is vertically and horizontally centered, with the header text aligns to the left. While on a larger device, it aligns to the right.  
+     * There's a Call To Action button that leads to the most important information on the site, which is the How to Shop section. 
+
+  3. About Section  
+     * The About Section explains the background story of the shop, and what are the benefits of doing grocery shopping with us. It was made mainly for new users / potential customers as the first pitch to a zero-waste / plastic-free grocery shopping concept. It consists of two sub-sections: What We Are and Why Shop With Us.
+     * What We Are sub-section tells a short story about plastic pollution, and how shopping at The Little Pantry can help to reduce plastic waste. It ends with a quote about how important it is to do it together to make an impact. This sub-section is wrapped in a container, which has a fully responsive maximum width on device sizes.  
+     * Why Shop With Us sub-section presents four main benefits of shopping at The Little Pantry, which differentiate The Little Pantry from other options of grocery shopping such as supermarkets and traditional market. This sub-section is also wrapped in a container, which has a fully responsive maximum width on device sizes. The four benefits are positioned in a fully responsive grid system, where on a large screen the cards were spread into 4 columns and 1 row, on a medium screen they become 2 rows and 2 columns, and on a small screen, they become stacked on top of each other.    
+     
+  4. Products Section
+  5. How to Shop Section
+  6. Contact Section
+  7. Find Us Section
+  8. Footer
+
+
+
 
