@@ -26,7 +26,7 @@ As The Little Pantry is a fictional business, a strategic UX research was done t
 * Online research of competitors (similar shops located in the same city), and news related to the rising of the plastic-free shop.
 
 Below are the result of the comprehensive and detailed interviews and research that have been conducted.  
-<br />
+
 
    #### **User Stories**
  - **First Time Visitor Goal**
@@ -47,7 +47,6 @@ Below are the result of the comprehensive and detailed interviews and research t
     3. As a frequent user, I want to find their social media links and follow them.
     4. As a frequent user, I want to read some blog articles about how to live zero waste or environment articles.
 
-<br />  
 
    #### **Online Research**
    1. Customer Research  
@@ -65,7 +64,7 @@ Below are the result of the comprehensive and detailed interviews and research t
 
    #### **Project Goals**
    The project goal is to provide an informational and promotional website of The Little Pantry, for customers and potential customers, so that they’re interested to visit and shop regularly at The Little Pantry.  
-<br />
+
 
    #### **User Goals**
    The target audience for this website is:
@@ -83,7 +82,6 @@ Below are the result of the comprehensive and detailed interviews and research t
    - To acquire new customers to the business
    - To introduce a plastic-free concept in grocery shopping and how it works to potential customers.
    - And finally, to create a customer engagement to the shop, making The Daily Pantry their regular choice for grocery shopping.  
-
 
 
    #### **Website Considerations**
@@ -235,6 +233,47 @@ For better and clearer visualization before coding, and also to check if the col
   8. Footer  
      The Footer uses the same color as the Navbar and provides the social media links of the shop, that opens in a new tab. The footer also contains alternative navigation links to all the sections, and the logo that leads back to the top of the page. On tablet and desktop, the navigation links are spread out from left to right in one row, while the logo and social media links occupy the second row. On mobile, they become one row in the center, stack on top of each other.  
 
+### **Features to be implemented in the future**  
+These features can be implemented in the future on the next development phase:  
+   * A multi-page website, consisting:
+      - An additional page of complete FAQs.
+      - Another additional page for blog/ article about zero waste tips and new updates of the shop.
+   * Option/ toggle button to change the language of the website to Dutch, as it is located in The Netherlands.
+   * Add CAPTCHA to the contact form to allows better security from spam. 
+
+<br />
+
+## **Technologies Used**  
+### **Main Languages Used**
+   * [HTML5](https://en.wikipedia.org/wiki/HTML5)
+   * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)  
+
+### **Additional Languages Used**
+   * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)  
+      JavaScript was used to implement functions that allowed the Hamburger menu in Navbar to close/collapse back after choosing, and to show a notification modal as a response after submitting the validated form, both were applied for a better UX.  
+
+### **Frameworks, Libraries & Programs Used**  
+   1. [Bootstrap 4.6, including jQuery and Popper.js](https://getbootstrap.com/docs/4.6/getting-started/introduction/)  
+   Bootstrap was used to assist with the responsiveness and styling of the website. Bootstrap 4 uses jQuery and Popper.js for JavaScript components (like modals, scrollspy, etc).  
+   2. [Google Fonts](https://fonts.google.com)  
+   Google fonts was used to import the “Roboto”, “Merriweather”, and “Comfortaa” fonts into the html file, and were used on all parts of the site.  
+   3. [Font Awesome](https://fontawesome.com)  
+   Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
+   4. [Git](https://git-scm.com)  
+   Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.  
+   5. [GitHub](https://github.com)  
+   GitHub is used to store the projects code after being pushed from Git. 
+   6. [Figma](https://www.figma.com)  
+   Figma was used to create the wireframes and the high fidelity mock up during the design process.  
+   7. [Autoprefixer CSS](https://autoprefixer.github.io)  
+   Autoprefixer CSS was used to add vendor prefixes to the CSS rules, to ensure that they work across all browsers.   
+   8. [Am I Responsive](ami.responsivedesign.is)  
+   Am I Responsive was used to preview the website across a variety of popular devices 
+   9. [Hatchful](https://hatchful.shopify.com)  
+   Hatchful was used to create the logo.
+   10. [Tiny JPG](https://tinyjpg.com)  
+   Tiny JPG was used to reduce the file size of the images.
+   
 
 
 
