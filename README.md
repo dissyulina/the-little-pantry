@@ -32,12 +32,10 @@ Below are the result of the comprehensive and detailed interviews and research t
  - **First Time Visitor Goal**
     1. As a first-time visitor, I want to easily navigate throughout the site and find the contents.
     2. As a first-time visitor, I want to get a great first impression in terms of the visual aspect of the website, so I'm interested to scroll down and find out more.
-    3. As a first-time visitor, I want to easily understand the shop’s concept. 
+    3. As a first-time visitor, I want to easily understand the shop’s concept and how it works. 
     4. As a first-time visitor, I want to know what kind of products are sold in this shop.
-    5. As a first-time visitor, I want to understand the benefit of buying products in this shop.
-    6. As a first-time visitor, I want to know how it works when I want to visit and buy something at this shop, so I can prepare beforehand.
-    7. As a first-time visitor, I want to know the location and opening hours of this shop.
-    8. As a first-time visitor, I want to locate their social media links to see their followings on social media to look for reviews and other information (if any).
+    5. As a first-time visitor, I want to know the location and opening hours of this shop.
+    6. As a first-time visitor, I want to locate their social media links to see their followings on social media to look for reviews and other information (if any).
 
  - **Returning Visitor Goal**  
     1. As a returning visitor, I want to find out if there’s an information page to answer the questions that I may have.
@@ -63,7 +61,7 @@ Below are the result of the comprehensive and detailed interviews and research t
          There are also traditional markets in Den Haag, where you can buy fruits, vegetables, meat, etc. In this type of market, the food items are typically not in plastic packaging, so you can always shop plastic-free. However, as many traditional markets usually are, they don’t have a website and are lacking food items such as beans, grains, dry spices, etc. 
          * [Pieter Pot](https://www.pieter-pot.nl)  
          There’s also an online packaging-free shop, which has no physical shop. They deliver your grocery in glass jars (where you also pay for the jars), and at the next delivery you give the jars back (then you also get your money back). The website looks quite professional, but as I mentioned before, what they are lacking is a physical shop.  
-<br />
+
 
    #### **Project Goals**
    The project goal is to provide an informational and promotional website of The Little Pantry, for customers and potential customers, so that they’re interested to visit and shop regularly at The Little Pantry.  
@@ -77,7 +75,7 @@ Below are the result of the comprehensive and detailed interviews and research t
    - Have started or think about starting to reduce waste in their daily lives
    - More modern and minimalistic lifestyle 
    The user's goal when visiting this website is to get comprehensive information about The Little Pantry, as a plastic-free / packaging-free grocery shop.  
-<br />
+
 
    #### **Business Goals**
    The business concept itself is relatively new, therefore the website has to provide clear and relevant information about the buying process and what the customer can expect when they visit the shop. 
@@ -86,7 +84,7 @@ Below are the result of the comprehensive and detailed interviews and research t
    - To introduce a plastic-free concept in grocery shopping and how it works to potential customers.
    - And finally, to create a customer engagement to the shop, making The Daily Pantry their regular choice for grocery shopping.  
 
-<br />
+
 
    #### **Website Considerations**
    The Little Pantry has a Business-To-Customer (B2C) product, which has considerations as below:  
@@ -95,7 +93,7 @@ Below are the result of the comprehensive and detailed interviews and research t
    * The design stands out amongst the competitors.  
    
    However, it has a slightly different purpose from other B2C. The end goal of a normal B2C is for the user to click “buy” or to make a purchase, but in this case, the end goal is for the user to visit the shop (and to make a purchase there). So, in this case, this website has only an informational/ promotional purpose.  
-   <br />
+   
 
    #### **Strategy Table**
    Based on these research, goals, and the considerations above, I brainstormed all of the opportunities that could be implemented in the website. All of those opportunities were mapped based on their importance (driven by business goals and user needs), and viability (given limited time and resources), to determine which opportunities were going to be included and which were not.  
@@ -111,9 +109,9 @@ F. Photo gallery | 2 | 2
 G. Testimonials / Reviews | 1 | 3
 H. Contact form | 4 | 3
 I. FAQs | 4 | 4
-J. Location, Opening Hours | 5 | 5  
+J. Location, Opening Hours | 5 | 5   
 
-<br />
+
 
 The chart below is the mapping of all of the opportunities. The yellow circle signifies which opportunities/ features have the highest combination of importance and viability.  
 
@@ -147,6 +145,7 @@ These contents were implemented on a single-page website, in consideration of:
 -  The user can see and read the contents quickly and with less learning curve.
 -  There’s only one single product that we are promoting (in this case The Little Pantry), so it has to be simple and straightforward.
 -  The end goal is: for the user to visit the store. The user doesn’t purchase on the website, so it’s better to keep the complexity of the information minimum.  
+
 <br />
 
 ### **4. Skeleton Plane** 
@@ -158,6 +157,7 @@ The wireframes can be found in the link below:
   * [Wireframes for tablet](assets/wireframes/wireframes-tablet.png)  
   * [Wireframes for mobile](assets/wireframes/wireframes-mobile.png)  
 
+<br />
 
 ### **5. Surface Plane** 
 For better and clearer visualization before coding, and also to check if the color scheme and images work great together, a high-fidelity mockup for desktop was made, and can be found in the link below.  
@@ -211,11 +211,31 @@ For better and clearer visualization before coding, and also to check if the col
      * What We Are sub-section tells a short story about plastic pollution, and how shopping at The Little Pantry can help to reduce plastic waste. It ends with a quote about how important it is to do it together to make an impact. This sub-section is wrapped in a container, which has a fully responsive maximum width on device sizes.  
      * Why Shop With Us sub-section presents four main benefits of shopping at The Little Pantry, which differentiate The Little Pantry from other options of grocery shopping such as supermarkets and traditional market. This sub-section is also wrapped in a container, which has a fully responsive maximum width on device sizes. The four benefits are positioned in a fully responsive grid system, where on a large screen the cards were spread into 4 columns and 1 row, on a medium screen they become 2 rows and 2 columns, and on a small screen, they become stacked on top of each other.    
      
-  4. Products Section
-  5. How to Shop Section
+  4. Products Section  
+     * The Products Section gives information about what kind of products are sold in the shop. It was made for new users / potential customers, and also for existing customers if they want to check the complete product list.  
+     * The Product Section is divided into two columns with the same width on the desktop and becomes stacked on top of each other in one column on mobile and tablet devices. The first column, on the left, is a carousel of product photos, and the second column, on the right, is the description of what kinds of products are sold in the shop.  
+     * The carousel of product photos occupies 50% of the page on desktop, and 100% width on mobile and tablet, which therefore also acts as a divider. It consists of three images that represent some of the products that are sold: grains and beans in containers, the spices in jars, and zero-waste housewares.  
+     * The description of what kind of products are sold also occupies 50% of the page on desktop, and 100% width on mobile and tablet. It ends with a button to download/ open a complete product list. This product list is a pdf file that opens in a new tab to ensure the user can navigate back to the site easily. 
+
+  5. How to Shop Section  
+     * The How to Shop Section consists of three Sub-sections: 3 Steps of How to Shop, Mini FAQs, and Did You Know sub-section.
+     * The 3 Steps of How to Shop sub-section has probably the most important information across the site. Also, the Call To Action button in the Header leads to this sub-section. It tells the user how the new concept of “plastic-free grocery shopping” works, and also to bring their containers from home. There are 3 steps in a container that has a fully responsive maximum width on device sizes. On desktop it’s positioned in one row, on tablet it becomes 2 rows (with one step centered in the second row), and on mobile, it becomes 3 rows on top of each other.  
+     * The Mini FAQs sub-section answers some of the questions that might come into the user’s mind after reading how it works. There are 3 questions and the answer is hidden under each question. A toggle button is used to show/hide the answer, which is positioned after each question. This style was chosen:  
+        - To minimize the amount of information that the user might not find important. The user can choose which answer they want to find out, so we can retain the user’s attention.  
+        - To use the space effectively, keeping in mind that this is a single-page website.  
+     * The Did You Know sub-section is made with the purpose of the user to subscribe to the Mailing list / Newsletter. It opens with one “Did you know” information, which builds the shop’s branding, that we are fully committed to zero waste. Then for similar news, stories, and updates about the shop, the user can join the mailing list. The Join mailing list form is inline, consists of an e-mail input and a Join button. The e-mail input is required; hence the user has to fill it out correctly before clicking the Join button. After the email is filled correctly and the Join button is clicked, there’s a modal pop-up as a Thank You message. The modal appears in the center of the screen and can be close by clicking the Close button, or a usual ‘X' button at the top-right side.
+
   6. Contact Section
-  7. Find Us Section
-  8. Footer
+     * The Contact Section plays a role as the main means of contact to the shop. The user is encouraged to send a message, in the form of review, questions, or anything else, to build a close relationship with the customers.  
+     * The background image for the contact form is an image of the shop so that the user can better visualize the situation in the shop. To help the readability of the form, an image overlay was positioned in the center, with high opacity.  
+     * The contact form has three inputs: Name, E-mail address, and Message. All of them must be filled out correctly for the user to be able to successfully send the form. After the form is successfully sent, there’s a modal pop-up as a response to let the user know that the shop has received the message. The modal appears in the center of the screen and can be close by clicking the Close button, or a usual ‘X' button at the top-right side.  
+
+  7. Find Us Section  
+     The Find Us section provides the last information needed to complete the website of The Little Pantry. It consists of information on the left side, and a google map on the right side. They are positioned side by side on tablet and desktop, and become on top of each other on mobile. The information contains the address, the opening hours, the phone number, and the email address of the shop. 
+  8. Footer  
+     The Footer uses the same color as the Navbar and provides the social media links of the shop, that opens in a new tab. The footer also contains alternative navigation links to all the sections, and the logo that leads back to the top of the page. On tablet and desktop, the navigation links are spread out from left to right in one row, while the logo and social media links occupy the second row. On mobile, they become one row in the center, stack on top of each other.  
+
+
 
 
 
