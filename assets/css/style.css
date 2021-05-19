@@ -103,11 +103,23 @@ section {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed; 
+    background-attachment: scroll; 
 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
     display: flex;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -194,7 +206,9 @@ section {
 
 .faq-container .btn {
     border: 1px solid #c7b0a7;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    -webkit-box-shadow: 0 0 8px 0 rgba(0,0,0,0.25);
     box-shadow: 0 0 8px 0 rgba(0,0,0,0.25);
 }
 
@@ -230,11 +244,13 @@ section {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .overlay {
     background-color: rgba(255,255,255,0.9);
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
 }
 
@@ -292,14 +308,6 @@ footer .nav-link {
     }
 }
 
-/* For mobiles and ipads (background-attachment:fixed doesn't work on iOS mobiles & tablets)*/
-@media screen and (max-width: 1024px) {
-    .header-container, 
-    .contact-container {
-        background-attachment: scroll;
-    }
-}
-
 /* For medium to large devices (tablets to desktop) */
 @media screen and (min-width: 992px) and (max-width: 1599.99px) {
     .jumbotron {
@@ -310,10 +318,15 @@ footer .nav-link {
 /* For large devices (desktop) and up */
 @media screen and (min-width: 992px) {
     .header-container {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
         justify-content: flex-end;
     }
     .jumbotron {
-    background-color: rgba(255,255,255,0.5);
+        background-color: rgba(255,255,255,0.5);
+    }
+    .header-container {
+        background-attachment: fixed;
     }
 }
 
@@ -324,5 +337,3 @@ footer .nav-link {
         max-width: 40vw;
     }
 }
-
-
