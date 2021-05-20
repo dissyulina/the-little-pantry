@@ -304,4 +304,54 @@ I ran into several issues and bugs while developing the website. Some of the tou
 5. **Issue:** Images with background-attachment: fixed, didn’t work on Safari browsers on mobile and tablet (iOS).  
 **Solution:** Originally, the Hero-Image and background image in the Contact section had fixed attachments. Unfortunately, these fixed background images didn’t work on Safari iOS (it’s a known bug). To solve this, I used a media-query to set the background-attachment to scroll on mobile and tablet (set the max-width to 1024px, as it's the max-width of iPad). 
 
+<br />  
+
+## **Deployment**  
+The project was developed using Gitpod as the code editor, committed to Git as a local repository, and finally pushed/ stored to GitHub. 
+
+### **Deployment to GitHub Pages**  
+The project was deployed to GitHub Pages using the following steps:
+1.	Log in to GitHub.
+2.	Navigate to the main page of GitHub Repository that will be deployed.
+3.	At the top of the Repository, locate the "Settings" button on the menu and click it.
+4.	Inside the Settings, on the left side of the page, there’s a list of tab menu. Locate the “Pages” tab, and click it.
+5.	Under "Source", click the dropdown called "None", select "Master", and then click the “Save” button.
+6.	The page will automatically refresh.
+7.	There’s a notification message that provides the now published site link: “Your site is ready to be published at https://dissyulina.github.io/the-little-pantry/”.  
+
+
+### **Forking the GitHub Repository**  
+By forking the GitHub repository you can make a copy of the original repository on your GitHub account to view and/or make changes without affecting the original repository, by using the following steps:
+1.	Log in to GitHub.
+2.	Navigate to the main page of the GitHub Repository that you want to fork.
+3.	At the top right of the Repository just below your profile picture, locate the "Fork" Button.
+4.	You should now have a copy of the original repository in your GitHub account.  
+
+Changes made to the forked repository can be merged with the original repository via a pull request.  
+
+### **Making a Local Clone** 
+By cloning a GitHub Repository you can create a local copy on your computer of the remote repository. This allows you to make all of your edits locally rather than directly in the source files of the origin repository, by using the following steps:  
+1.	Log in to GitHub 
+2.	Navigate to the main page of the GitHub Repository that you want to clone.
+3.	Above the list of files, click the dropdown called "Code".
+4.	To clone the repository using HTTPS, under "HTTPS", copy the link.
+5.	Open Git Bash.
+6.	Change the current working directory to the location where you want the cloned directory to be made.
+7.	Type git clone, and then paste the URL you copied in Step 4.  
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+8. Press Enter. Your local clone will be created.
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```  
+Changes made on the local machine (cloned repository) can be pushed to the upstream repository directly if you have a write access for the repository. Otherwise, the changes made in the cloned repository are first pushed to the forked repository, and then a pull request is created.  
+Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) to retrieve pictures for some of the buttons and more detailed explanations of the above process.  
+
+
 
