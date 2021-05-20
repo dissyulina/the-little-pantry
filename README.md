@@ -15,6 +15,7 @@ The Little Pantry is a small plastic-free grocery shop located in Den Haag, The 
 
 Please note that this company is fictional and was created for the Code Institute’s Milestone Project 1 as part of their Diploma in Full Stack Software Development. The requirements are to make a static front-end website, using HTML, CSS, and (optional) Bootstrap or other CSS frameworks.  
 
+<br />  
 
 ## **Development Plane**
  
@@ -28,7 +29,7 @@ As The Little Pantry is a fictional business, a strategic UX research was done t
 Below are the result of the comprehensive and detailed interviews and research that have been conducted.  
 
 
-   #### **User Stories**
+   ### **User Stories**
  - **First Time Visitor Goal**
     1. As a first-time visitor, I want to easily navigate throughout the site and find the contents.
     2. As a first-time visitor, I want to get a great first impression in terms of the visual aspect of the website, so I'm interested to scroll down and find out more.
@@ -48,7 +49,7 @@ Below are the result of the comprehensive and detailed interviews and research t
     4. As a frequent user, I want to read some blog articles about how to live zero waste or environment articles.
 
 
-   #### **Online Research**
+### **Online Research**
    1. Customer Research  
        According to research by Afval Barometer from SUEZ (source: afvalgids.nl), 95% of Netherlands residents agree that separating the trash (into plastic, glass, paper, and the rest) is important, but only 60% do it. The Little Pantry is created as an alternative to a regular supermarket, so instead of separating the trash which requires more effort, we remove the packaging altogether.  
 
@@ -58,15 +59,13 @@ Below are the result of the comprehensive and detailed interviews and research t
          Lekkernassuh is a physical plastic/packaging-free shop, almost similar to The Little Pantry. However, they are located in a sports hall, and only opens for 3 hours, once every two weeks (on Saturday). It is more of a community market, and the workers are all volunteers, so it lacks a clean, modern, and professional feel to it.
          * Traditional Markets in Den Haag  
          There are also traditional markets in Den Haag, where you can buy fruits, vegetables, meat, etc. In this type of market, the food items are typically not in plastic packaging, so you can always shop plastic-free. However, as many traditional markets usually are, they don’t have a website and are lacking food items such as beans, grains, dry spices, etc. 
-         * [Pieter Pot](https://www.pieter-pot.nl)  
-         There’s also an online packaging-free shop, which has no physical shop. They deliver your grocery in glass jars (where you also pay for the jars), and at the next delivery you give the jars back (then you also get your money back). The website looks quite professional, but as I mentioned before, what they are lacking is a physical shop.  
 
 
-   #### **Project Goals**
+   ### **Project Goals**
    The project goal is to provide an informational and promotional website of The Little Pantry, for customers and potential customers, so that they’re interested to visit and shop regularly at The Little Pantry.  
 
 
-   #### **User Goals**
+   ### **User Goals**
    The target audience for this website is:
    - Young adult to adult, 20-50 years old
    - Living in Den Haag, The Netherlands
@@ -76,7 +75,7 @@ Below are the result of the comprehensive and detailed interviews and research t
    The user's goal when visiting this website is to get comprehensive information about The Little Pantry, as a plastic-free / packaging-free grocery shop.  
 
 
-   #### **Business Goals**
+   ### **Business Goals**
    The business concept itself is relatively new, therefore the website has to provide clear and relevant information about the buying process and what the customer can expect when they visit the shop. 
    - To create an online presence of the shop. 
    - To acquire new customers to the business
@@ -84,7 +83,7 @@ Below are the result of the comprehensive and detailed interviews and research t
    - And finally, to create a customer engagement to the shop, making The Daily Pantry their regular choice for grocery shopping.  
 
 
-   #### **Website Considerations**
+   ### **Other Considerations**
    The Little Pantry has a Business-To-Customer (B2C) product, which has considerations as below:  
    * Headline and content are catchy and compelling.
    * Minimal content, large images.
@@ -93,27 +92,27 @@ Below are the result of the comprehensive and detailed interviews and research t
    However, it has a slightly different purpose from other B2C. The end goal of a normal B2C is for the user to click “buy” or to make a purchase, but in this case, the end goal is for the user to visit the shop (and to make a purchase there). So, in this case, this website has only an informational/ promotional purpose.  
    
 
-   #### **Strategy Table**
+   ### **Strategy Table**
    Based on these research, goals, and the considerations above, I brainstormed all of the opportunities that could be implemented in the website. All of those opportunities were mapped based on their importance (driven by business goals and user needs), and viability (given limited time and resources), to determine which opportunities were going to be included and which were not.  
 
-Opportunities / Features | Importance | Viability
---- | --- | ---
-A. Background story about plastic pollution | 4 | 5
-B. Story about The Little Pantry | 2 | 5
-C. The benefits | 3 | 3
-D. The product list | 4 | 4
-E. How it works | 5 | 3
-F. Photo gallery | 2 | 2
-G. Testimonials / Reviews | 1 | 3
-H. Contact form | 4 | 3
-I. FAQs | 4 | 4
-J. Location, Opening Hours | 5 | 5   
+   Opportunities / Features | Importance | Viability
+   --- | --- | ---
+   A. Background story about plastic pollution | 4 | 5
+   B. Story about The Little Pantry | 2 | 5
+   C. The benefits | 3 | 3
+   D. The product list | 4 | 4
+   E. How it works | 5 | 3
+   F. Photo gallery | 2 | 2
+   G. Testimonials / Reviews | 1 | 3
+   H. Contact form | 4 | 3
+   I. FAQs | 4 | 4
+   J. Location, Opening Hours | 5 | 5   
 
 
 
-The chart below is the mapping of all of the opportunities. The yellow circle signifies which opportunities/ features have the highest combination of importance and viability.  
+   The chart below is the mapping of all of the opportunities. The yellow circle signifies which opportunities/ features have the highest combination of importance and viability.  
 
-![alt text](assets/documentation/opportunities-mapping.png "The mapping of the opportunities")
+   ![alt text](assets/documentation/opportunities-mapping.png "The mapping of the opportunities")
 
 <br />
 
@@ -250,11 +249,11 @@ These features can be implemented in the future on the next development phase:
 
 ### **Additional Languages Used**
    * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)  
-      JavaScript was used to implement functions that allowed the Hamburger menu in Navbar to close/collapse back after choosing, and to show a notification modal as a response after submitting the validated form, both were applied for a better UX.  
+      JavaScript was used to implement functions that allowed the Hamburger menu in Navbar to close/collapse back after choosing, and to show a notification modal as a response after submitting a validated form, both were applied for a better UX.  
 
 ### **Frameworks, Libraries & Programs Used**  
    1. [Bootstrap 4.6, including jQuery and Popper.js](https://getbootstrap.com/docs/4.6/getting-started/introduction/)  
-   Bootstrap was used to assist with the responsiveness and styling of the website. Bootstrap 4 uses jQuery and Popper.js for JavaScript components (like modals, scrollspy, etc).  
+   Bootstrap was used to assist with the responsiveness and styling of the website. Bootstrap 4 uses jQuery and Popper.js for JavaScript components (like modals, scrollspy, navbar, etc).  
    2. [Google Fonts](https://fonts.google.com)  
    Google fonts was used to import the “Roboto”, “Merriweather”, and “Comfortaa” fonts into the html file, and were used on all parts of the site.  
    3. [Font Awesome](https://fontawesome.com)  
@@ -262,20 +261,47 @@ These features can be implemented in the future on the next development phase:
    4. [Git](https://git-scm.com)  
    Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.  
    5. [GitHub](https://github.com)  
-   GitHub is used to store the projects code after being pushed from Git. 
+   GitHub was used to store the projects code after being pushed from Git. 
    6. [Figma](https://www.figma.com)  
    Figma was used to create the wireframes and the high fidelity mock up during the design process.  
    7. [Autoprefixer CSS](https://autoprefixer.github.io)  
    Autoprefixer CSS was used to add vendor prefixes to the CSS rules, to ensure that they work across all browsers.   
    8. [Am I Responsive](ami.responsivedesign.is)  
-   Am I Responsive was used to preview the website across a variety of popular devices 
+   Am I Responsive was used to preview the website across a variety of popular devices. 
    9. [Hatchful](https://hatchful.shopify.com)  
    Hatchful was used to create the logo.
    10. [Tiny JPG](https://tinyjpg.com)  
    Tiny JPG was used to reduce the file size of the images.
+   11. [Coolors](https://coolors.co)  
+   Coolors was used to create a cohesive color scheme for the website.
    
+<br />  
 
+## **Issues and Bugs**  
 
+I ran into several issues and bugs while developing the website. Some of the tough ones are listed below, along with the solutions that successfully solved them.
+1. **Issue:** On mobile and tablet, the page could be moved left and right a little.  
+   **Solution:** The root problem for this issue was the bootstrap class ‘container-fluid’, which had padding-left and padding-right 15px, and followed by bootstrap class ‘row’, which had margin-left and margin-right -15px. The solution for this was fairly simple, which to set:
+   ```
+   .container-fluid {
+	padding-left: 0;
+	padding-right: 0; }
+   .row {
+	margin-left: 0;
+	margin-right: 0; }
+   ```
+   This solution was found from [this page](https://stackoverflow.com/questions/44667161/page-moving-left-and-right-while-in-mobile-browser) on Stackoverflow.
 
+2. **Issue:** The hamburger menu (Navbar) on mobile device didn’t automatically collapse/ close back after the user choose a section.  
+**Solution:** Use a jQuery function, to collapse the hamburger menu after a navigation link is clicked. Code adapted from [this page](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-navbar-on-click) on Stackoverflow.   
+
+3. **Issue:** The Nav-links didn’t have an active state (which of the section the user currently sees), due to a single-page website.  
+**Solution:** Set a scrollspy from bootstrap, which automatically updates the navigation links based on scroll position, to indicate which link is currently active in the viewport. Code adapted and modified from [this page](https://getbootstrap.com/docs/4.6/components/scrollspy/) on Bootstrap Documentation.  
+
+4. **Issue:** After the user clicks the ‘Send Message’ button or ‘Join’ button, there’s no notification or message that the form has been submitted successfully. If a Modal was set after the ‘Send’ button is clicked, the modal will appear even if the user didn’t fill out the form correctly, so it will contradict the required attribute.  
+**Solution:** Use a jQuery function, that only shows the modal after the form has been validated. Also, after the form has been submitted, the form is reset so the input fields are empty again. Code adapted from [this page](https://stackoverflow.com/questions/46054499/open-modal-bootstrap-on-submit-form) on Stackoverflow.  
+
+5. **Issue:** Images with background-attachment: fixed, didn’t work on Safari browsers on mobile and tablet (iOS).  
+**Solution:** Originally, the Hero-Image and background image in the Contact section had fixed attachments. Unfortunately, these fixed background images didn’t work on Safari iOS (it’s a known bug). To solve this, I used a media-query to set the background-attachment to scroll on mobile and tablet (set the max-width to 1024px, as it's the max-width of iPad). 
 
 
