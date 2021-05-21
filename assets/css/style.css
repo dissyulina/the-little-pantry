@@ -41,10 +41,10 @@ section {
     color: #fff;
     border-width: 1px;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
-    padding: 10px 30px;
+    padding: 0.75rem 1.75rem;
 }
 .btn-orange:hover {
     background: #B53C17;
@@ -84,7 +84,7 @@ section {
 
 .navbar-light .navbar-nav .nav-link {
     color: #232B2F;
-    margin-bottom: 2px;
+    margin-bottom: 0.125rem;
 }
 
 .nav-item:hover,
@@ -96,7 +96,7 @@ section {
 /*-- Header & Hero --*/
 
 .header-container {
-    margin-top: 55px;
+    margin-top: 30px;
     height: 100vh;
     background: url(../images/hero-image.jpg) no-repeat center center;
     -webkit-background-size: cover;
@@ -125,8 +125,8 @@ section {
 
 .jumbotron {
     background-color: rgba(255,255,255,0.8);
-    margin-left: 15px;   
-    margin-right: 15px;
+    margin-left: 1rem;   
+    margin-right: 1rem;
 }
 
 .jumbotron-header {
@@ -148,7 +148,7 @@ section {
 .about-text {
     text-align: center;
     color:#45545E;
-    margin: 20px 0;
+    margin: 1.25rem 0;
 }
 
 .blockquote {
@@ -207,7 +207,7 @@ section {
 }
 
 .faq-container .question {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 
@@ -240,7 +240,7 @@ section {
 
 .input-mailinglist {
     border-style: none;
-    padding: 5px;
+    padding: 0.5rem;
 }
 
 /*-- Section 4: Contact --*/
@@ -286,7 +286,7 @@ footer .nav-link {
 }
 
 #footer i {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 #footer a > img {
@@ -340,7 +340,7 @@ footer .nav-link {
 /* For extra wide monitor and up */
 @media screen and (min-width: 1600px) {
     .jumbotron {
-        margin-right: 60px;
+        margin-right: 4rem;
         max-width: 40vw;
     }
 }
