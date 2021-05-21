@@ -1,4 +1,4 @@
-/*--==== General ====--*/
+/*-- General --*/
 
 html {
     scroll-behavior: smooth;
@@ -34,7 +34,7 @@ section {
     font-weight: 600;
 }
 
-/*--==== Button ====--*/
+/*-- Button --*/
 
 .btn-orange {
     background: #E56138;
@@ -51,7 +51,7 @@ section {
     color: #fff;
 } 
 
-/*--==== Background Color ====--*/
+/*-- Background Color --*/
 
 .bg-gray-green {
     background-color: #9BAAAB;
@@ -69,7 +69,7 @@ section {
     background-color: #DBE9DF;
 }
 
-/*--==== Navbar ====--*/
+/*-- Navbar --*/
 
 .navbar img {
     height: 30px;
@@ -93,7 +93,7 @@ section {
     border-radius: 5px;
 }
 
-/*--==== Header & Hero ====--*/
+/*-- Header & Hero --*/
 
 .header-container {
     margin-top: 55px;
@@ -141,7 +141,7 @@ section {
     color:#45545E;
 }
 
-/*--==== Section 1: About Us ====--*/
+/*-- Section 1: About Us --*/
 
 /*-- Subsection: Who We Are --*/
 
@@ -174,7 +174,7 @@ section {
     font-weight: 700;
 }
 
-/*--==== Section 2: Products =====--*/
+/*-- Section 2: Products --*/
 
 .carousel-item img {
     display: block;
@@ -197,7 +197,7 @@ section {
     font-weight: 500;
 }
 
-/*--==== Section 3: How To Shop ====--*/
+/*-- Section 3: How To Shop --*/
 
 /*-- Subsection: 3 Steps --*/
 
@@ -243,7 +243,7 @@ section {
     padding: 5px;
 }
 
-/*--==== Section 4: Contact ====--*/
+/*-- Section 4: Contact --*/
 
 .contact-container {
     background: url(../images/the-shop.jpg) no-repeat center bottom;
@@ -261,7 +261,7 @@ section {
     width: fit-content;
 }
 
-/*--==== Section 5: Find Us ====--*/
+/*-- Section 5: Find Us --*/
 
 .map-wrapper {
     width: 500px;
@@ -274,7 +274,7 @@ section {
     border-style: none;
 }
 
-/*--==== Footer ====--*/
+/*-- Footer --*/
 
 footer .nav-link {
     padding: 0;
@@ -294,7 +294,7 @@ footer .nav-link {
     height: 20px; 
 }
 
-/*--==== Media Queries ====--*/
+/*-- Media Queries --*/
 
 /* For very narrow mobiles (galaxy fold, iphone 5, iphone se) */
 @media screen and (max-width: 350px) {
