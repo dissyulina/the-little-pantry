@@ -354,10 +354,12 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 Changes made on the local machine (cloned repository) can be pushed to the upstream repository directly if you have a write access for the repository. Otherwise, the changes made in the cloned repository are first pushed to the forked repository, and then a pull request is created.  
 Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) to retrieve pictures for some of the buttons and more detailed explanations of the above process.  
 
+<br />  
 
 ## **Testing**  
 The testing documentation can be found here.
 
+<br />  
 
 ## **Credits** 
 ### **Code**
@@ -383,6 +385,7 @@ The testing documentation can be found here.
 
 ### **Contents**
    * Contents for the downloadable Product List was sourced from [Lekkernasuh](https://lekkernassuh.org/over-lekkernassuh/verpakkingsvrije-winkel/).
+   * Contents for About Section was sourced and summarized from [Packaging waste](https://supplychain.edf.org/resources/sustainability-101-packaging-waste-the-problem/).
 
 
 ### **Acknowledgements**
