@@ -182,7 +182,7 @@ For better and clearer visualization before coding, and also to check if the col
 
 
    #### **Imagery**  
-   These images were sourced from [Freepik](https://www.freepik.com), [Pexels](https://www.pexels.com), and [Unsplash](), and are referenced in the code in the alt attribute.  
+   These images were sourced from [Freepik](https://www.freepik.com), [Pexels](https://www.pexels.com), and [Unsplash](https://unsplash.com).  
    * Hero Image is chosen because it’s minimalistic, so the heading text can stand out more, and it’s giving a clean and fresh feeling of living “zero-waste”.
    * All of the images in the website were taken from a free stock-photos website, as representations of what’s inside the shop, to provide clear imagery to the user and let the user know what to expect (the products sold, what the bulk-system is, etc.)  
 
@@ -190,11 +190,11 @@ For better and clearer visualization before coding, and also to check if the col
 
 ## **Features**  
 ### **Existing Features**  
-  1. Navigation Bar (Navbar)  
+1. Navigation Bar (Navbar)  
       * The Navbar consists of a Logo on the left side that links to the top of the site, and five navigation links (nav-links) on the right side that link to the sections. It occupies 100% width of the site.  
       * The Navbar is fully responsive on all device sizes. On desktop view, the user can see all the nav-links, while on a smaller device, the nav-links collapse to a hamburger menu. 
       * The Nav-links have an active state which changes according to which section the user is currently looking at.  
-      * The Nav-links have a hover state (that looks the same as the active state) when the user hovers over them.  
+      * The Nav-links have a subtle hover state  when the user hovers over them.  
       * The Navbar is also fixed at the top of the user’s device screen, it follows along when the user scrolls down, so the user can easily navigate the site without scrolling back to the top.  
 
   2. Hero Page / Header  
@@ -281,16 +281,17 @@ These features can be implemented in the future on the next development phase:
 
 I ran into several issues and bugs while developing the website. Some of the tough ones are listed below, along with the solutions that successfully solved them.
 1. **Issue:** On mobile and tablet, the page could be moved left and right a little.  
-   **Solution:** The root problem for this issue was the bootstrap class ‘container-fluid’, which had padding-left and padding-right 15px, and followed by bootstrap class ‘row’, which had margin-left and margin-right -15px. The solution for this was fairly simple, which to set:
+   **Solution:** After spending much time investigating with the developer tools, the root problem was found. The problem was the bootstrap class ‘container-fluid’, which had padding-left and padding-right 15px, and followed by bootstrap class ‘row’, which had margin-left and margin-right -15px. The solution for this was fairly simple, which to set:
    ```
    .container-fluid {
-	padding-left: 0;
-	padding-right: 0; }
+	   padding-left: 0;
+	   padding-right: 0; 
+   }
    .row {
-	margin-left: 0;
-	margin-right: 0; }
+	   margin-left: 0;
+	   margin-right: 0; 
+   }
    ```
-   This solution was found from [this page](https://stackoverflow.com/questions/44667161/page-moving-left-and-right-while-in-mobile-browser) on Stackoverflow.
 
 2. **Issue:** The hamburger menu (Navbar) on mobile device didn’t automatically collapse/ close back after the user choose a section.  
 **Solution:** Use a jQuery function, to collapse the hamburger menu after a navigation link is clicked. Code adapted from [this page](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-navbar-on-click) on Stackoverflow.   
@@ -354,4 +355,38 @@ Changes made on the local machine (cloned repository) can be pushed to the upstr
 Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) to retrieve pictures for some of the buttons and more detailed explanations of the above process.  
 
 
+## **Testing**  
+The testing documentation can be found here.
 
+
+## **Credits** 
+### **Code**
+1. Bootstrap 4.6: Bootstrap Library was heavily used throughout the project, including these Bootstrap components below: 
+   * Scrollspy: https://getbootstrap.com/docs/4.6/components/scrollspy/
+   * Collapsible Navbar: https://getbootstrap.com/docs/4.6/components/navbar/
+   * Cards:
+  https://getbootstrap.com/docs/4.6/components/card/
+   * Carousel: https://getbootstrap.com/docs/4.6/components/carousel/
+   * Grid System: https://getbootstrap.com/docs/4.6/layout/grid/
+   * Toggle Collapse: https://getbootstrap.com/docs/4.6/components/collapse/
+   * Modal: https://getbootstrap.com/docs/4.6/components/modal/
+   * Form: https://getbootstrap.com/docs/4.6/components/forms/  
+2. Stackoverflow
+   * To collapse back the hamburger menu after clicking a section: https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-navbar-on-click
+   * To show a modal after the user send a valid form: https://stackoverflow.com/questions/46054499/open-modal-bootstrap-on-submit-form  
+
+### **Images**
+   * The logo was created using a free logo maker [Hatchful](https://hatchful.shopify.com).
+   * The photos used in the website were obtained from [Freepik](https://www.freepik.com), [Pexels](https://www.pexels.com), and [Unsplash](https://unsplash.com). The complete source is attributed in ```alt``` and ```title``` attribute on the image.
+   * The icons used in the website were sourced from [Font Awesome](https://fontawesome.com).  
+
+
+### **Contents**
+   * Contents for the downloadable Product List was sourced from [Lekkernasuh](https://lekkernassuh.org/over-lekkernassuh/verpakkingsvrije-winkel/).
+
+
+### **Acknowledgements**
+   * My mentor, Oluwaseun Owonikoko, for the helpful feedback on every detail of the website.
+   * My friends, for the great insight over living zero-waste and plastic-free grocery shop.
+   * My husband Sandi, for his daily continuous support and for testing the website across our mobile devices.
+   * Slack community, as the first help to ask when I encountered a problem.
