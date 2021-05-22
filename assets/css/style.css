@@ -87,7 +87,11 @@ section {
     margin-bottom: 0.125rem;
 }
 
-.nav-item:hover,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #000;
+}
+
 .nav-item > .active {
     background-color: #DBE9DF;
     border-radius: 5px;
@@ -292,6 +296,10 @@ footer .nav-link {
 #footer a > img {
     width: auto; 
     height: 20px; 
+}
+
+#footer i:hover {
+    color: #495a63;
 }
 
 /*-- Media Queries --*/
