@@ -6,7 +6,9 @@
 
 **Table of Contents** 
 1. Testing User Stories
-2. 
+2. Testing Responsiveness
+
+---
 
 ## **Testing User Stories**
  - **First Time Visitor Goal**
@@ -63,5 +65,39 @@
 
 <br/>
 
-## **Testing Responsiveness**
-To check the responsiveness of the website across all devices, the developer tools are used regularly during the developing process. The responsiveness testing can be checked here. 
+## **Manual Testing**
+### **Testing Responsiveness**  
+To check the responsiveness of the website across all devices, the developer tools are used regularly during the developing process.    
+   * The responsiveness of the Navbar and the Header  
+   ![alt text](assets/testing/responsive-navbar-header.gif "The responsiveness of Navbar and Header")
+
+   * The responsiveness of the About Section  
+   ![alt text](assets/testing/responsive-about.gif "The responsiveness of About Section")
+
+   * The responsiveness of the Products Section  
+   ![alt text](assets/testing/responsive-products.gif "The responsiveness of Products Section")  
+
+   * The responsiveness of the How to Shop Section  
+   ![alt text](assets/testing/responsive-howtoshop.gif "The responsiveness of How to Shop Section")  
+
+   * The responsiveness of the Contact Section  
+   ![alt text](assets/testing/responsive-contact.gif "The responsiveness of Contact Section")  
+
+   * The responsiveness of the Find Us Section and the Footer  
+   ![alt text](assets/testing/responsive-findus-footer.gif "The responsiveness of Find Us Section and Footer")  
+
+
+### **Testing The Links**
+All links including the Navigation links, the buttons (excluding forms' buttons), and media social links were also tested manually. The testing below was done on a mobile screen (in the developer tools).  
+
+   ![alt text](assets/testing/testing-links-mobile.gif "Testing the links") 
+
+
+### **Testing The Forms**
+All forms were tested to check if the ```required``` attribute were working, and a notification modal popped up after the user sent a valid form.  
+
+   ![alt text](assets/testing/testing-forms.gif "Testing the forms") 
+
+
+
+
