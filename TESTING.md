@@ -81,22 +81,22 @@ c. [Forms Testing](https://github.com/dissyulina/the-little-pantry/blob/master/T
 ### **Responsiveness Testing**  
 To check the responsiveness of the website across all devices, the developer tools are used regularly during the developing process.    
    * The responsiveness of the Navbar and the Header  
-   ![alt text](assets/testing/responsive-navbar-header.gif "The responsiveness of Navbar and Header")
+   ![The responsiveness of Navbar and Header](assets/testing/responsive-navbar-header.gif "The responsiveness of Navbar and Header")
 
    * The responsiveness of About Section  
-   ![alt text](assets/testing/responsive-about.gif "The responsiveness of About Section")
+   ![The responsiveness of About Section](assets/testing/responsive-about.gif "The responsiveness of About Section")
 
    * The responsiveness of Products Section  
-   ![alt text](assets/testing/responsive-products.gif "The responsiveness of Products Section")  
+   ![The responsiveness of Products Section](assets/testing/responsive-products.gif "The responsiveness of Products Section")  
 
    * The responsiveness of How to Shop Section  
-   ![alt text](assets/testing/responsive-howtoshop.gif "The responsiveness of How to Shop Section")  
+   ![The responsiveness of How to Shop Section](assets/testing/responsive-howtoshop.gif "The responsiveness of How to Shop Section")  
 
    * The responsiveness of Contact Section  
-   ![alt text](assets/testing/responsive-contact.gif "The responsiveness of Contact Section")  
+   ![The responsiveness of Contact Section](assets/testing/responsive-contact.gif "The responsiveness of Contact Section")  
 
    * The responsiveness of Find Us Section and  Footer  
-   ![alt text](assets/testing/responsive-findus-footer.gif "The responsiveness of Find Us Section and Footer")  
+   ![The responsiveness of Find Us Section and Footer](assets/testing/responsive-findus-footer.gif "The responsiveness of Find Us Section and Footer")  
 
 
 ### **Links Testing**
@@ -104,10 +104,9 @@ The links were tested to ensure that:
 - All navigation links are linking correctly.   
 - The social media buttons and the downloadable product list are working and opening in a new tab.  
 -  Hovering and Active states are working.  
+ 
 
-The testing below was done on a mobile screen (in the developer tools).  
-
-![alt text](assets/testing/testing-links-mobile.gif "Testing the links") 
+![Testing the links](assets/testing/testing-links.gif "Testing the links") 
 
 
 ### **Forms Testing**
@@ -117,7 +116,7 @@ The forms were also tested to make sure that:
 - After the form is sent, it resets to empty fields.  
 
 
-![alt text](assets/testing/testing-forms.gif "Testing the forms") 
+![Testing the forms](assets/testing/testing-forms.gif "Testing the forms") 
 
 <br/>  
 
@@ -130,11 +129,11 @@ Autoprefixer CSS was used to add CSS vendor prefixes to the CSS rules after the 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the website to ensure there were no syntax errors in the project.  
 [W3C Markup Validator](https://validator.w3.org) - There were no error detected.  
 
-![alt text](assets/testing/html-validation.jpg "HTML Validation, no error detected") 
+![HTML Validation, no error detected](assets/testing/html-validation.jpg "HTML Validation, no error detected") 
 
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - There were no error detected.  
 
-![alt text](assets/testing/css-validation.jpg "CSS Validation, no error detected")   
+![CSS Validation, no error detected](assets/testing/css-validation.jpg "CSS Validation, no error detected")   
 
 
 <br/>  
@@ -142,11 +141,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 ## **Lighthouse Testing**
 The Chrome Lighthouse testing was used to audit the performance, accessibility, best practices, and SEO. After applying some changes to make the performance faster, including resizing all of the images, setting a width and height to some images, adding a rel=noopener to social media links, adding rel=preconnect and crossorigin attributes to google fonts to social media links, below are the highest result can be achieved:  
 - For Desktop  
-![alt text](assets/testing/lighthouse-desktop.jpg "Lighthouse testing for desktop") 
+![Lighthouse testing for desktop](assets/testing/lighthouse-desktop.jpg "Lighthouse testing for desktop") 
 Find the full report [here](assets/testing/lighthouse-report-desktop.pdf)  
 
 - For Mobile  
-![alt text](assets/testing/lighthouse-mobile.jpg "Lighthouse testing for mobile")  
+![Lighthouse testing for mobile](assets/testing/lighthouse-mobile.jpg "Lighthouse testing for mobile")  
 Find the full report [here](assets/testing/lighthouse-report-mobile.pdf)
 
 <br/>  
