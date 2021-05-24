@@ -5,7 +5,7 @@
 [View live website here](https://dissyulina.github.io/the-little-pantry/)  
 
 **Table of Contents** 
-1. [Testing User Stories]()  
+1. [User Stories Testing](https://github.com/dissyulina/the-little-pantry/blob/master/TESTING.md#testing-user-stories)  
 2. [Manual Testing](https://github.com/dissyulina/the-little-pantry/blob/master/TESTING.md#manual-testing)  
 a. [Responsiveness Testing](https://github.com/dissyulina/the-little-pantry/blob/master/TESTING.md#responsiveness-testing)  
 b. [Links Testing](https://github.com/dissyulina/the-little-pantry/blob/master/TESTING.md#links-testing)  
@@ -16,10 +16,13 @@ c. [Forms Testing](https://github.com/dissyulina/the-little-pantry/blob/master/T
 6. [CI Peer Code Review on Slack](https://github.com/dissyulina/the-little-pantry/blob/master/TESTING.md#ci-peer-code-review-on-slack)
 7. [Further Testing](https://github.com/dissyulina/the-little-pantry/blob/master/TESTING.md#further-testing)  
 
+<br/>  
 
----
+---  
 
-## **Testing User Stories**
+<br/>
+
+## **User Stories Testing**
  - **First Time Visitor Goal**
     1. As a first-time visitor, I want to easily navigate throughout the site and find the contents.
        - The navigation bar is clearly defined and fixed to the top of the screen, it follows the scroll position, so on whichever section the user currently is, the user can navigate effortlessly.  
