@@ -66,38 +66,67 @@
 <br/>
 
 ## **Manual Testing**
-### **Testing Responsiveness**  
+### **Responsiveness Testing**  
 To check the responsiveness of the website across all devices, the developer tools are used regularly during the developing process.    
    * The responsiveness of the Navbar and the Header  
    ![alt text](assets/testing/responsive-navbar-header.gif "The responsiveness of Navbar and Header")
 
-   * The responsiveness of the About Section  
+   * The responsiveness of About Section  
    ![alt text](assets/testing/responsive-about.gif "The responsiveness of About Section")
 
-   * The responsiveness of the Products Section  
+   * The responsiveness of Products Section  
    ![alt text](assets/testing/responsive-products.gif "The responsiveness of Products Section")  
 
-   * The responsiveness of the How to Shop Section  
+   * The responsiveness of How to Shop Section  
    ![alt text](assets/testing/responsive-howtoshop.gif "The responsiveness of How to Shop Section")  
 
-   * The responsiveness of the Contact Section  
+   * The responsiveness of Contact Section  
    ![alt text](assets/testing/responsive-contact.gif "The responsiveness of Contact Section")  
 
-   * The responsiveness of the Find Us Section and the Footer  
+   * The responsiveness of Find Us Section and  Footer  
    ![alt text](assets/testing/responsive-findus-footer.gif "The responsiveness of Find Us Section and Footer")  
 
 
-### **Testing The Links**
+### **Links Testing**
 All links including the Navigation links, the buttons (excluding forms' buttons), and media social links were also tested manually. The testing below was done on a mobile screen (in the developer tools).  
 
    ![alt text](assets/testing/testing-links-mobile.gif "Testing the links") 
 
 
-### **Testing The Forms**
-All forms were tested to check if the ```required``` attribute were working, and a notification modal popped up after the user sent a valid form.  
+### **Forms Testing**
+All forms were tested to check if the ```required``` attributes were working, and a notification modal popped up after the user sent a valid form.  
 
    ![alt text](assets/testing/testing-forms.gif "Testing the forms") 
 
+<br/>  
+
+## **Autoprefixer CSS**
+Autoprefixer CSS was used to add CSS vendor prefixes to the CSS rules after the developing process was done, to ensure that the they work across all browsers.  
+
+<br/>  
+
+## **W3C Validator Testing**  
+The W3C Markup Validator and W3C CSS Validator Services were used to validate the website to ensure there were no syntax errors in the project.  
+[W3C Markup Validator](https://validator.w3.org) - There were no error detected.  
+
+![alt text](assets/testing/html-validation.jpg "HTML Validation, no error detected") 
+
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - There were no error detected.  
+
+![alt text](assets/testing/css-validation.jpg "CSS Validation, no error detected")   
+
+
+<br/>  
+
+## **Lighthouse Testing**
+The Chrome Lighthouse testing was used to audit the performance, accessibility, best practices, and SEO. After applying some changes to make the performance faster, including resizing all of the images, setting a width and height to some images, adding a rel=noopener to social media links, adding rel=preconnect and crossorigin attributes to google fonts to social media links, below are the highest result can be achieved:  
+- For Desktop
+![alt text](assets/testing/lighthouse-desktop.jpg "Lighthouse testing for desktop") 
+Find the full report [here](assets/testing/lighthouse-report-desktop.pdf)  
+
+- For Mobile  
+![alt text](assets/testing/lighthouse-mobile.jpg "Lighthouse testing for mobile")  
+Find the full report [here](assets/testing/lighthouse-report-mobile.pdf)
 
 
 
