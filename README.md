@@ -1,7 +1,7 @@
 # The Little Pantry
  
 
-![alt text](assets/documentation/website-responsive.jpg "The Little Pantry's website in various devices")  
+![The Little Pantry's website in various devices](assets/readme/website-responsive.jpg "The Little Pantry's website in various devices")  
 
 [View live website here](https://dissyulina.github.io/the-little-pantry/)
 
@@ -160,7 +160,7 @@ Below are the result of the comprehensive and detailed interviews and research t
 
    The chart below is the mapping of all of the opportunities. The yellow circle signifies which opportunities/ features have the highest combination of importance and viability.  
 
-   ![alt text](assets/documentation/opportunities-mapping.png "The mapping of the opportunities")
+   ![The mapping of the opportunities](assets/readme/opportunities-mapping.png "The mapping of the opportunities")
 
 <br />  
 
@@ -187,7 +187,7 @@ Functionality requirements:
 ### **3. Structure Plane** 
 The contents were organized in a Hierarchical Tree Structure that ensures the user navigates easily and intuitively.
 
-![alt text](assets/documentation/structure.jpg "The mapping of the opportunities")
+![The mapping of the opportunities](assets/readme/structure.jpg "The mapping of the opportunities")
 
 These contents were implemented on a single-page website, in consideration of:
 -  The user can see and read the contents quickly and with less learning curve.
@@ -217,7 +217,7 @@ For better and clearer visualization before coding, and also to check if the col
 
    #### **Color Scheme**  
    The colors used are primarily derived from the logo, the hero image, and other images in the website, to create a cohesive color scheme from beginning to end. I used [Coolors](https://coolors.co) to identify the three colors (in the middle) from the images and add another two colors that fit well with the other three.  
-   ![alt text](assets/documentation/color-scheme.jpg "The color scheme")  
+   ![The color scheme](assets/readme/color-scheme.jpg "The color scheme")  
 
 
 
