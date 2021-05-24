@@ -8,21 +8,21 @@
 <br/>
 
 **Table of Contents**  
-1. [Introduction](https://github.com/dissyulina/the-little-pantry#introduction)
-2. [Development Plane](https://github.com/dissyulina/the-little-pantry#development-plane)  
+1. [Introduction](https://github.com/dissyulina/the-little-pantry#introduction)  
+2. [UX Development Planes](https://github.com/dissyulina/the-little-pantry#development-plane)   
    i. [Strategy Plane](https://github.com/dissyulina/the-little-pantry#1-strategy-plane)  
-      - [User Stories](https://github.com/dissyulina/the-little-pantry#user-stories)  
-      - [Online Research](https://github.com/dissyulina/the-little-pantry#online-research)  
-      - [Project Goals, User Goals, and Business Goals](https://github.com/dissyulina/the-little-pantry#project-goals)  
-      - [Strategy Table](https://github.com/dissyulina/the-little-pantry#strategy-table)
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [User Stories](https://github.com/dissyulina/the-little-pantry#user-stories)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [Online Research](https://github.com/dissyulina/the-little-pantry#online-research)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [Project Goals, User Goals, and Business Goals](https://github.com/dissyulina/the-little-pantry#project-goals)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [Strategy Table](https://github.com/dissyulina/the-little-pantry#strategy-table)
 
    ii. [Scope Plane](https://github.com/dissyulina/the-little-pantry#2-scope-plane)  
    iii. [Structure Plane](https://github.com/dissyulina/the-little-pantry#3-structure-plane)  
    iv. [Skeleton Plane / Wireframes](https://github.com/dissyulina/the-little-pantry#4-skeleton-plane)  
    v. [Surface Plane / High Fidelity Mock Up](https://github.com/dissyulina/the-little-pantry#5-surface-plane)  
-     * [Color Scheme](https://github.com/dissyulina/the-little-pantry#color-scheme)
-     * [Typography](https://github.com/dissyulina/the-little-pantry#typography)
-     * [Imagery](https://github.com/dissyulina/the-little-pantry#imagery)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [Color Scheme](https://github.com/dissyulina/the-little-pantry#color-scheme)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [Typography](https://github.com/dissyulina/the-little-pantry#typography)  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [Imagery](https://github.com/dissyulina/the-little-pantry#imagery)  
 
 3. [Features](https://github.com/dissyulina/the-little-pantry#features)  
    i. [Existing Features](https://github.com/dissyulina/the-little-pantry#existing-features)  
