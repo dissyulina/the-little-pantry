@@ -5,8 +5,17 @@
 [View live website here](https://dissyulina.github.io/the-little-pantry/)  
 
 **Table of Contents** 
-1. Testing User Stories
-2. Testing Responsiveness
+1. [Testing User Stories]()  
+2. [Manual Testing](https://github.com/dissyulina/the-little-pantry/blob/master/TESTING.md#manual-testing)  
+a. [Responsiveness Testing](https://github.com/dissyulina/the-little-pantry/blob/master/TESTING.md#responsiveness-testing)  
+b. [Links Testing](https://github.com/dissyulina/the-little-pantry/blob/master/TESTING.md#links-testing)  
+c. [Forms Testing](https://github.com/dissyulina/the-little-pantry/blob/master/TESTING.md#forms-testing)  
+3. [Autoprefixer CSS](https://github.com/dissyulina/the-little-pantry/blob/master/TESTING.md#autoprefixer-css)  
+4. [W3C Validator Testing](https://github.com/dissyulina/the-little-pantry/blob/master/TESTING.md#w3c-validator-testing)  
+5. [Lighthouse Testing](https://github.com/dissyulina/the-little-pantry/blob/master/TESTING.md#lighthouse-testing)  
+6. [CI Peer Code Review on Slack](https://github.com/dissyulina/the-little-pantry/blob/master/TESTING.md#ci-peer-code-review-on-slack)
+7. [Further Testing](https://github.com/dissyulina/the-little-pantry/blob/master/TESTING.md#further-testing)  
+
 
 ---
 
@@ -129,7 +138,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 ## **Lighthouse Testing**
 The Chrome Lighthouse testing was used to audit the performance, accessibility, best practices, and SEO. After applying some changes to make the performance faster, including resizing all of the images, setting a width and height to some images, adding a rel=noopener to social media links, adding rel=preconnect and crossorigin attributes to google fonts to social media links, below are the highest result can be achieved:  
-- For Desktop
+- For Desktop  
 ![alt text](assets/testing/lighthouse-desktop.jpg "Lighthouse testing for desktop") 
 Find the full report [here](assets/testing/lighthouse-report-desktop.pdf)  
 
@@ -166,6 +175,8 @@ Based on the feedback above, these changes were made:
    - Mobile: iPhone7, iPhone 8, and iPhone 12   Mini, Asus Zenfone Max Pro M2, and LG G5
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
+<br />
 
+[Back to top](https://github.com/dissyulina/the-little-pantry/blob/master/TESTING.md#the-little-pantry---testing)  
 
 
