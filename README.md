@@ -11,10 +11,10 @@
 1. [Introduction](https://github.com/dissyulina/the-little-pantry#introduction)
 2. [Development Plane](https://github.com/dissyulina/the-little-pantry#development-plane)  
    i. [Strategy Plane](https://github.com/dissyulina/the-little-pantry#1-strategy-plane)  
-      * [User Stories](https://github.com/dissyulina/the-little-pantry#user-stories)  
-      * [Online Research](https://github.com/dissyulina/the-little-pantry#online-research)  
-      * [Project Goals, User Goals, and Business Goals](https://github.com/dissyulina/the-little-pantry#project-goals)  
-      * [Strategy Table](https://github.com/dissyulina/the-little-pantry#strategy-table)
+      - [User Stories](https://github.com/dissyulina/the-little-pantry#user-stories)  
+      - [Online Research](https://github.com/dissyulina/the-little-pantry#online-research)  
+      - [Project Goals, User Goals, and Business Goals](https://github.com/dissyulina/the-little-pantry#project-goals)  
+      - [Strategy Table](https://github.com/dissyulina/the-little-pantry#strategy-table)
 
    ii. [Scope Plane](https://github.com/dissyulina/the-little-pantry#2-scope-plane)  
    iii. [Structure Plane](https://github.com/dissyulina/the-little-pantry#3-structure-plane)  
@@ -25,25 +25,26 @@
      * [Imagery](https://github.com/dissyulina/the-little-pantry#imagery)  
 
 3. [Features](https://github.com/dissyulina/the-little-pantry#features)  
-   * [Existing Features](https://github.com/dissyulina/the-little-pantry#existing-features)  
-   * [Features to be Implemented in The Future](https://github.com/dissyulina/the-little-pantry#features-to-be-implemented-in-the-future)  
+   i. [Existing Features](https://github.com/dissyulina/the-little-pantry#existing-features)  
+   ii. [Features to be Implemented in The Future](https://github.com/dissyulina/the-little-pantry#features-to-be-implemented-in-the-future)  
 
 4. [Technology Used](https://github.com/dissyulina/the-little-pantry#technologies-used)  
-   * [Main and Additional Languanges](https://github.com/dissyulina/the-little-pantry#main-languages-used)  
-   * [Frameworks, Libraries, & Programs Used](https://github.com/dissyulina/the-little-pantry#frameworks-libraries--programs-used)  
+   i. [Main and Additional Languanges](https://github.com/dissyulina/the-little-pantry#main-languages-used)  
+   ii. [Frameworks, Libraries, & Programs Used](https://github.com/dissyulina/the-little-pantry#frameworks-libraries--programs-used)  
 
 5. [Issues and Bugs](https://github.com/dissyulina/the-little-pantry#issues-and-bugs)  
 6. [Deployment](https://github.com/dissyulina/the-little-pantry#deployment)  
-   * [Deploy to Github](https://github.com/dissyulina/the-little-pantry#deployment-to-github-pages)  
-   * [Forking to Github Repository](https://github.com/dissyulina/the-little-pantry#forking-the-github-repository)  
-   * [Making a Local Clone](https://github.com/dissyulina/the-little-pantry#making-a-local-clone)  
+   i. [Deploy to Github](https://github.com/dissyulina/the-little-pantry#deployment-to-github-pages)  
+   ii. [Forking to Github Repository](https://github.com/dissyulina/the-little-pantry#forking-the-github-repository)  
+   iii. [Making a Local Clone](https://github.com/dissyulina/the-little-pantry#making-a-local-clone)  
 
-7. [Testing](https://github.com/dissyulina/the-little-pantry#testing)  
+7. [Testing](https://github.com/dissyulina/the-little-pantry#testing)   
+   i. [Go to TESTING.md](https://github.com/dissyulina/the-little-pantry/blob/master/TESTING.md)  
 
 8. [Credits](https://github.com/dissyulina/the-little-pantry#credits)  
-   * [Code](https://github.com/dissyulina/the-little-pantry#code)  
-   * [Images](https://github.com/dissyulina/the-little-pantry#images)  
-   * [Contents](https://github.com/dissyulina/the-little-pantry#contents)
+   i. [Code](https://github.com/dissyulina/the-little-pantry#code)  
+   ii. [Images](https://github.com/dissyulina/the-little-pantry#images)  
+   iii. [Contents](https://github.com/dissyulina/the-little-pantry#contents)
 
 9. [Acknowledgements](https://github.com/dissyulina/the-little-pantry#acknowledgements)  
 
@@ -424,7 +425,8 @@ Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-re
 
 
 ## **Testing**  
-The testing documentation can be found here.
+The testing documentation can be found [here](https://github.com/dissyulina/the-little-pantry/blob/master/TESTING.md). 
+
 
 <br />  
 
