@@ -88,15 +88,24 @@ To check the responsiveness of the website across all devices, the developer too
 
 
 ### **Links Testing**
-All links including the Navigation links, the buttons (excluding forms' buttons), and media social links were also tested manually. The testing below was done on a mobile screen (in the developer tools).  
+The links were tested to ensure that:  
+- All navigation links are linking correctly.   
+- The social media buttons and the downloadable product list are working and opening in a new tab.  
+-  Hovering and Active states are working.  
 
-   ![alt text](assets/testing/testing-links-mobile.gif "Testing the links") 
+The testing below was done on a mobile screen (in the developer tools).  
+
+![alt text](assets/testing/testing-links-mobile.gif "Testing the links") 
 
 
 ### **Forms Testing**
-All forms were tested to check if the ```required``` attributes were working, and a notification modal popped up after the user sent a valid form.  
+The forms were also tested to make sure that:  
+- The ```required``` fields are working.  
+- The modal pop-up was working after a valid form is successfully sent.  
+- After the form is sent, it resets to empty fields.  
 
-   ![alt text](assets/testing/testing-forms.gif "Testing the forms") 
+
+![alt text](assets/testing/testing-forms.gif "Testing the forms") 
 
 <br/>  
 
@@ -127,6 +136,36 @@ Find the full report [here](assets/testing/lighthouse-report-desktop.pdf)
 - For Mobile  
 ![alt text](assets/testing/lighthouse-mobile.jpg "Lighthouse testing for mobile")  
 Find the full report [here](assets/testing/lighthouse-report-mobile.pdf)
+
+<br/>  
+
+## **CI Peer Code Review on Slack**  
+The website was also submitted to the Peer-code-review channel on Slack to get some feedback from fellow students. The feedbacks were as follows:  
+- The website was working well on Safari browser on Mac. No bugs detected.
+- All links and forms were working.
+- The comments in the code could be improved by using the correct syntax:
+   ``` 
+   <!-- This is a comment for HTML file -->  
+   /* This is a comment for CSS file */  
+   ```
+   While in my original code, I used many additional dashes to make the comment clearer and more readable.
+-  To consider using rem over px for best practice.  
+
+Based on the feedback above, these changes were made:  
+- The comment’s syntaxes were all fixed. I removed the unnecessary dashes.
+- All of the font sizes’ unit and most of the paddings & margins unit were changed from px to rem.  
+
+<br/>  
+
+## **Further Testing**  
+- The Website was tested on Google Chrome, Microsoft Edge, Opera, Mozilla Firefox, and Safari (iOS) browsers.
+- The website was viewed on a variety of devices such as:
+   - Windows Desktop 
+	- Windows Laptop  
+   - Tablets: iPad Mini 2 and iPad 2018
+   - Mobile: iPhone7, iPhone 8, and iPhone 12   Mini, Asus Zenfone Max Pro M2, and LG G5
+- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
 
 
 
