@@ -266,6 +266,9 @@ section {
 }
 
 /*-- Section 5: Find Us --*/
+.info-wrapper a {
+    color: inherit;
+}
 
 .map-wrapper {
     width: 500px;
