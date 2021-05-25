@@ -445,6 +445,9 @@ The testing documentation can be found [here](https://github.com/dissyulina/the-
 2. Stackoverflow
    * To collapse back the hamburger menu after clicking a section: https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-navbar-on-click
    * To show a modal after the user send a valid form: https://stackoverflow.com/questions/46054499/open-modal-bootstrap-on-submit-form  
+3. Autoprefixer CSS  
+   Add different vendor prefixer to CSS. Input all the CSS code here: https://autoprefixer.github.io  
+
 
 ### **Images**
    * The logo was created using a free logo maker [Hatchful](https://hatchful.shopify.com).

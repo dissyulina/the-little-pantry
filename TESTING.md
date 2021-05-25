@@ -1,8 +1,12 @@
 # The Little Pantry - Testing  
 
-[Back to main README.md file](https://github.com/dissyulina/the-little-pantry#the-little-pantry)  
+[Back to the main README.md file](https://github.com/dissyulina/the-little-pantry#the-little-pantry)  
+
+[Back to the Testing section in main README.md file](https://github.com/dissyulina/the-little-pantry#testing)  
 
 [View live website here](https://dissyulina.github.io/the-little-pantry/)  
+
+<br/>  
 
 **Table of Contents** 
 1. [User Stories Testing](https://github.com/dissyulina/the-little-pantry/blob/master/TESTING.md#testing-user-stories)  
@@ -79,7 +83,7 @@ c. [Forms Testing](https://github.com/dissyulina/the-little-pantry/blob/master/T
 
 ## **Manual Testing**
 ### **Responsiveness Testing**  
-To check the responsiveness of the website across all devices, the developer tools are used regularly during the developing process.    
+To check the responsiveness of the website across all devices, the developer tools are used regularly during the developing process. Please note that due to the gifs' resolutions, the colors on the demonstration below are different from the actual site.    
    * The responsiveness of the Navbar and the Header  
    ![The responsiveness of Navbar and Header](assets/testing/responsive-navbar-header.gif "The responsiveness of Navbar and Header")
 
@@ -104,6 +108,8 @@ The links were tested to ensure that:
 - All navigation links are linking correctly.   
 - The social media buttons and the downloadable product list are working and opening in a new tab.  
 -  Hovering and Active states are working.  
+
+Please note that due to the gif's resolution, the colors on the demonstration below are different from the actual site.  
  
 
 ![Testing the links](assets/testing/testing-links.gif "Testing the links") 
@@ -114,6 +120,8 @@ The forms were also tested to make sure that:
 - The ```required``` fields are working.  
 - The modal pop-up was working after a valid form is successfully sent.  
 - After the form is sent, it resets to empty fields.  
+
+Please note that due to the gif's resolution, the colors on the demonstration below are different from the actual site.   
 
 
 ![Testing the forms](assets/testing/testing-forms.gif "Testing the forms") 
@@ -139,7 +147,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 <br/>  
 
 ## **Lighthouse Testing**
-The Chrome Lighthouse testing was used to audit the performance, accessibility, best practices, and SEO. After applying some changes to make the performance faster, including resizing all of the images, setting a width and height to some images, adding a rel=noopener to social media links, adding rel=preconnect and crossorigin attributes to google fonts to social media links, below are the highest result can be achieved:  
+The Chrome Lighthouse testing was used to audit the performance, accessibility, best practices, and SEO. After applying some changes to make the performance faster, including resizing all of the images, setting a width and height to some images, adding a ```rel=noopener``` to social media links, adding ```rel=preconnect``` and ```crossorigin``` attributes to google fonts to social media links, below are the results:  
 - For Desktop  
 ![Lighthouse testing for desktop](assets/testing/lighthouse-desktop.jpg "Lighthouse testing for desktop") 
 Find the full report [here](assets/testing/lighthouse-report-desktop.pdf)  
@@ -174,7 +182,7 @@ Based on the feedback above, these changes were made:
    - Windows Desktop 
 	- Windows Laptop  
    - Tablets: iPad Mini 2 and iPad 2018
-   - Mobile: iPhone7, iPhone 8, and iPhone 12   Mini, Asus Zenfone Max Pro M2, and LG G5
+   - Mobile: iPhone7, iPhone 8, and iPhone 12   Mini, Asus Zenfone Max Pro M2, and LG G5  
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 <br />
